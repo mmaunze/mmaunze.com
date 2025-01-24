@@ -25,494 +25,196 @@
     <div class="row overflow-hidden">
       <div class="col-lg-12 m-10 ">
         <div class="timeline-event m-10 card p-0" data-aos="fade-right">
-          <h6 class="card-header">Sobre Mim</h6>
+          <h6 class="card-header text-info text-uppercase fw-bold">Sobre Mim</h6>
           <div class="card-body">
-            <p class="mb-2">Click the button below to read financial reports</p>
-            <button
-              class="btn btn-outline-info btn-sm"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseExample"
-              aria-expanded="false"
-              aria-controls="collapseExample">
-              Outros Detalhes
+            <p class="mb-4">Sou IT, Programador e Analista/Engenheiro de Software, formado pela UniLúrio, com 4 anos de experiência no desenvolvimento e análise de soluções tecnológicas inovadoras. Minha missão é criar software eficiente e de impacto, adaptado às necessidades dos clientes.</p>
+
+            <button class="btn btn-outline-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Detalhes e Habilidades
             </button>
-            <div class="collapse" id="collapseExample">
-              <ul class="list-group list-group-flush mt-4">
 
-                <li class="list-group-item d-flex justify-content-between flex-wrap">
-                  <h6 class="card-header">Habilidades Tecnicas</h6>
-                  <div class="card-body">
+            <div class="collapse mt-4" id="collapseExample">
+              <!-- Seção de Habilidades Técnicas -->
+              <div class="mb-5">
+                <h6 class="text-uppercase fw-bold text-info">Habilidades Técnicas</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <small>Análise de Softwares</small>
+                    <div class="progress bg-light" style="height: 6px;">
+                      <div class="progress-bar bg-secondary" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <small>Concepção e Implementação de Softwares</small>
+                    <div class="progress bg-light" style="height: 6px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <small>Desenho e Implementação de Bancos de Dados Relacionais</small>
+                    <div class="progress bg-light" style="height: 6px;">
+                      <div class="progress-bar bg-info" role="progressbar" style="width: 86%" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <small>Desenvolvimento Backend</small>
+                    <div class="progress bg-light" style="height: 6px;">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 91%" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <small>Desenvolvimento Frontend</small>
+                    <div class="progress bg-light" style="height: 6px;">
+                      <div class="progress-bar bg-primary" role="progressbar" style="width: 84%" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <small>Cablagem e Montagem de Equipamentos de Rede</small>
+                    <div class="progress bg-light" style="height: 6px;">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 97%" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <small>Configuração de Equipamentos de Rede</small>
+                    <div class="progress bg-light" style="height: 6px;">
+                      <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
 
-                    <ul class="list-unstyled">
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-                          <div class="progress bg-label-secondary" style="height: 6px">
-                            <div
-                              class="progress-bar bg-secondary"
-                              role="progressbar"
-                              style="width: 93.7%"
-                              aria-valuenow="25"
-                              aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <small>Analise de Softwares</small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-                          <div class="progress bg-label-danger" style="height: 6px">
-                            <div
-                              class="progress-bar bg-danger"
-                              role="progressbar"
-                              style="width: 87.7%"
-                              aria-valuenow="25"
-                              aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <small>Concepcao e Impementacao de Softwares </small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-                          <div class="progress" style="height: 6px">
-                            <div
-                              class="progress-bar bg-info"
-                              role="progressbar"
-                              style="width: 86.3%"
-                              aria-valuenow="25"
-                              aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <small>Desenho e Implementacao de Base de dados Relacionais</small>
-
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-                          <div class="progress bg-label-warning" style="height: 6px">
-                            <div
-                              class="progress-bar bg-warning"
-                              role="progressbar"
-                              style="width: 91.30%"
-                              aria-valuenow="25"
-                              aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <small>Desenvolvimento backend</small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-                          <div class="progress bg-label-info" style="height: 6px">
-                            <div
-                              class="progress-bar bg-info"
-                              role="progressbar"
-                              style="width: 84.15%"
-                              aria-valuenow="25"
-                              aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <small>Desenvolvimento Frontend</small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-                          <div class="progress bg-label-primary" style="height: 6px">
-                            <div
-                              class="progress-bar bg-primary"
-                              role="progressbar"
-                              style="width: 97.10%"
-                              aria-valuenow="25"
-                              aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <small>Cablagem e montagem de equipamentos de rede</small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="w-100">
-                          <div class="progress bg-label-success" style="height: 6px">
-                            <div
-                              class="progress-bar bg-success"
-                              role="progressbar"
-                              style="width: 75.10%"
-                              aria-valuenow="25"
-                              aria-valuemin="0"
-                              aria-valuemax="100"></div>
-                          </div>
-                          <small>Configuracao de equipamentos de Rede</small>
-                        </div>
-                      </li>
-
-                    </ul>
-                  </div>
-
-                </li>
-                <li class="list-group-item d-flex justify-content-between flex-wrap">
-                  <h6 class="card-header">Competencias Pessoais</h6>
-                  <div class="card-body">
-
-                    <ul class="list-unstyled">
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-
-                          <small>Analise de Softwares</small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-
-                          <small>Concepcao e Impementacao de Softwares </small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-
-                          <small>Desenho e Implementacao de Base de dados Relacionais</small>
-
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-
-                          <small>Desenvolvimento backend</small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-
-                          <small>Desenvolvimento Frontend</small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="mb-4 w-100">
-
-                          <small>Cablagem e montagem de equipamentos de rede</small>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <div>
-
-                        </div>
-                        <div class="w-100">
-
-                          <small>Configuracao de equipamentos de Rede</small>
-                        </div>
-                      </li>
-
-                    </ul>
-                  </div>
-
-                </li>
-              </ul>
+              <!-- Seção de Competências Pessoais -->
+              <div>
+                <h6 class="text-uppercase fw-bold text-info">Competências Pessoais</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><small>Trabalho em equipe e colaboração eficaz</small></li>
+                  <li class="list-group-item"><small>Capacidade analítica e resolução de problemas</small></li>
+                  <li class="list-group-item"><small>Habilidade de comunicação com stakeholders</small></li>
+                  <li class="list-group-item"><small>Gestão de tempo e priorização de tarefas</small></li>
+                </ul>
+              </div>
             </div>
           </div>
-
         </div>
+
 
         <div class="col-12 m-11">
           <ul class="timeline timeline-center mt-12">
+            <!-- Formação -->
             <li class="timeline-item">
-              <span
-                class="timeline-indicator timeline-indicator-warning"
-                data-aos="zoom-in"
-                data-aos-delay="200">
-                <i class="ri-donut-chart-fill ri-20px"></i>
-              </span>
-              <div class="timeline-event card p-0" data-aos="fade-right">
-                <div class="card-header d-flex justify-content-between">
-                  <h6 class="card-title mb-0"><span class="align-middle">Online Store</span></h6>
-                  <i class="ri-more-2-line cursor-pointer"></i>
-                </div>
-                <div class="card-body pt-0">
-                  <p>
-                    Develop an online store of electronic devices for the provided layout, as well as develop a
-                    mobile version of it. The must be compatible with any CMS.
-                  </p>
-                  <div class="d-flex flex-wrap flex-sm-row flex-column">
-                    <div class="mb-sm-0 mb-4 me-12">
-                      <p class="text-muted mb-2">Developers</p>
-                      <div class="d-flex align-items-center">
-                        <div class="avatar avatar-xs me-2">
-                          <span class="avatar-initial rounded-circle bg-label-info">A</span>
-                        </div>
-                        <div class="avatar avatar-xs me-2">
-                          <span class="avatar-initial rounded-circle bg-label-success">B</span>
-                        </div>
-                        <div class="avatar avatar-xs">
-                          <span class="avatar-initial rounded-circle bg-label-danger">C</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mb-sm-0 mb-4 me-12">
-                      <p class="text-muted mb-2">Deadline</p>
-                      <p class="mb-0">20 Dec 2077</p>
-                    </div>
-                    <div>
-                      <p class="text-muted mb-2">Budget</p>
-                      <p class="mb-0">$50000</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-event-time">25th January</div>
-              </div>
-            </li>
-            <li class="timeline-item timeline-item-left">
-              <span
-                class="timeline-indicator timeline-indicator-info"
-                data-aos="zoom-in"
-                data-aos-delay="200">
-                <i class="ri-open-arm-line ri-20px"></i>
-              </span>
-              <div class="timeline-event card p-0" data-aos="fade-right">
-                <div class="card-header d-flex justify-content-between">
-                  <h6 class="card-title mb-0"><span class="align-middle">Online Store</span></h6>
-                  <i class="ri-more-2-line cursor-pointer"></i>
-                </div>
-                <div class="card-body pt-0">
-                  <p>
-                    Develop an online store of electronic devices for the provided layout, as well as develop a
-                    mobile version of it. The must be compatible with any CMS.
-                  </p>
-                  <div class="d-flex flex-wrap flex-sm-row flex-column">
-                    <div class="mb-sm-0 mb-4 me-12">
-                      <p class="text-muted mb-2">Developers</p>
-                      <div class="d-flex align-items-center">
-                        <div class="avatar avatar-xs me-2">
-                          <span class="avatar-initial rounded-circle bg-label-info">A</span>
-                        </div>
-                        <div class="avatar avatar-xs me-2">
-                          <span class="avatar-initial rounded-circle bg-label-success">B</span>
-                        </div>
-                        <div class="avatar avatar-xs">
-                          <span class="avatar-initial rounded-circle bg-label-danger">C</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mb-sm-0 mb-4 me-12">
-                      <p class="text-muted mb-2">Deadline</p>
-                      <p class="mb-0">20 Dec 2077</p>
-                    </div>
-                    <div>
-                      <p class="text-muted mb-2">Budget</p>
-                      <p class="mb-0">$50000</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-event-time">25th January</div>
-              </div>
-            </li>
-            <li class="timeline-item timeline-item-right">
               <span class="timeline-indicator timeline-indicator-info" data-aos="zoom-in" data-aos-delay="200">
-                <i class="ri-map-pin-line ri-20px"></i>
+                <i class="ri-graduation-cap-line ri-20px"></i>
               </span>
-              <div class="timeline-event card p-0" data-aos="fade-left">
+              <div class="timeline-event card p-0" data-aos="fade-right">
                 <div class="card-header d-flex justify-content-between">
-                  <h6 class="card-title mb-0">
-                    <i class="ri-map-pin-line"></i>
-                    <span class="align-middle">Location</span>
-                  </h6>
-                  <span class="badge rounded-pill bg-label-danger">High</span>
+                  <h6 class="card-title mb-0"><span class="align-middle">Licenciatura em Engenharia Informática</span></h6>
+                  <span class="badge rounded-pill bg-label-primary">2020 - 2024</span>
                 </div>
-                <div class="card-body py-0">
-                  <h6 class="mb-2">Final location for the company celebration.</h6>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem?</p>
+                <div class="card-body pt-0">
+                  <p>Universidade Lúrio, Pemba, Cabo Delgado, Moçambique</p>
+                  <ul>
+                    <li>Redes de Computadores e Segurança</li>
+                    <li>Engenharia de Software</li>
+                    <li>Administração e Análise de Sistemas</li>
+                    <li>Inteligência Artificial</li>
+                    <li>Sistemas e Tecnologias de Informação</li>
+                  </ul>
                 </div>
-                <div class="card-footer d-flex justify-content-between">
-                  <div class="d-flex align-items-center flex-wrap cursor-pointer gap-4">
-                    <i class="ri-links-line"></i>
-                    <div class="position-relative">
-                      <i class="ri-chat-4-line"></i>
-                      <span class="badge rounded-pill bg-info badge-dot badge-notifications"></span>
-                    </div>
-                    <i class="ri-user-3-line"></i>
-                  </div>
-                  <p class="mb-0">
-                    <span class="text-muted">Due Date:</span>
-                    15th Jan
-                  </p>
+              </div>
+            </li>
+
+            <!-- Experiência Profissional -->
+            <li class="timeline-item">
+              <span class="timeline-indicator timeline-indicator-warning" data-aos="zoom-in" data-aos-delay="200">
+                <i class="ri-briefcase-line ri-20px"></i>
+              </span>
+              <div class="timeline-event card p-0" data-aos="fade-right">
+                <div class="card-header d-flex justify-content-between">
+                  <h6 class="card-title mb-0"><span class="align-middle">Prestador de Serviço de Suporte Técnico em IT</span></h6>
+                  <span class="badge rounded-pill bg-label-secondary">Jan 2023 - Nov 2024</span>
                 </div>
-                <div class="timeline-event-time">12th January</div>
+                <div class="card-body pt-0">
+                  <p>Computer & Network, Pemba</p>
+                  <ul>
+                    <li>Desenho, Implementação, Diagnóstico e Manutenção de Redes de Computadores</li>
+                    <li>Configuração de dispositivos e impressoras na rede</li>
+                    <li>Instalação e configuração de CCTV, sensores biométricos e DVRs</li>
+                    <li>Monitoramento e correção de falhas na rede</li>
+                    <li>Help Desk presencial e remoto</li>
+                  </ul>
+                </div>
               </div>
             </li>
 
             <li class="timeline-item">
-              <span
-                class="timeline-indicator timeline-indicator-success"
-                data-aos="zoom-in"
-                data-aos-delay="200">
-                <i class="ri-money-dollar-circle-line ri-20px"></i>
-              </span>
-              <div class="timeline-event card p-0" data-aos="fade-right">
-                <div class="card-header d-flex justify-content-between">
-                  <h6 class="card-title mb-0"><span class="align-middle">Online Store</span></h6>
-                  <i class="ri-more-2-line cursor-pointer"></i>
-                </div>
-                <div class="card-body pt-0">
-                  <p>
-                    Develop an online store of electronic devices for the provided layout, as well as develop a
-                    mobile version of it. The must be compatible with any CMS.
-                  </p>
-                  <div class="d-flex flex-wrap flex-sm-row flex-column">
-                    <div class="mb-sm-0 mb-4 me-12">
-                      <p class="text-muted mb-2">Developers</p>
-                      <div class="d-flex align-items-center">
-                        <div class="avatar avatar-xs me-2">
-                          <span class="avatar-initial rounded-circle bg-label-info">A</span>
-                        </div>
-                        <div class="avatar avatar-xs me-2">
-                          <span class="avatar-initial rounded-circle bg-label-success">B</span>
-                        </div>
-                        <div class="avatar avatar-xs">
-                          <span class="avatar-initial rounded-circle bg-label-danger">C</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mb-sm-0 mb-4 me-12">
-                      <p class="text-muted mb-2">Deadline</p>
-                      <p class="mb-0">20 Dec 2077</p>
-                    </div>
-                    <div>
-                      <p class="text-muted mb-2">Budget</p>
-                      <p class="mb-0">$50000</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="timeline-event-time">25th January</div>
-              </div>
-            </li>
-            <li class="timeline-item">
-              <span
-                class="timeline-indicator timeline-indicator-danger"
-                data-aos="zoom-in"
-                data-aos-delay="200">
-                <i class="ri-server-line ri-20px"></i>
+              <span class="timeline-indicator timeline-indicator-success" data-aos="zoom-in" data-aos-delay="200">
+                <i class="ri-hotel-line ri-20px"></i>
               </span>
               <div class="timeline-event card p-0" data-aos="fade-left">
                 <div class="card-header d-flex justify-content-between">
-                  <h6 class="card-title mb-0">
-                    <span class="align-middle">Ubuntu Server</span>
-                  </h6>
-                  <span class="badge rounded-pill bg-label-danger">Inactive</span>
+                  <h6 class="card-title mb-0"><span class="align-middle">Administrador da Infraestrutura de Redes</span></h6>
+                  <span class="badge rounded-pill bg-label-warning">Nov 2022 - Jul 2023</span>
                 </div>
-                <div class="card-body pb-2 pt-0">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item d-flex justify-content-between align-items-center ps-0">
-                      <div>
-                        <i class="ri-global-line"></i>
-                        <span>IP Address</span>
-                      </div>
-                      <div>192.654.8.566</div>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center ps-0">
-                      <div>
-                        <i class="ri-cpu-line"></i>
-                        <span>CPU</span>
-                      </div>
-                      <div>4 Cores</div>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center ps-0">
-                      <div>
-                        <i class="ri-ram-2-fill"></i>
-                        <span>Ram</span>
-                      </div>
-                      <div>500 MB</div>
-                    </li>
+                <div class="card-body pt-0">
+                  <p>Kirimizi Hotel & Restaurant, Pemba</p>
+                  <ul>
+                    <li>Instalação, Configuração e Manutenção de Sistemas Operativos e Dispositivos</li>
+                    <li>Planejamento e reparação de infraestrutura de cablagem</li>
+                    <li>Configuração de Routers, switches e repetidores</li>
+                    <li>Monitoramento e resolução de erros na rede</li>
+                    <li>Montagem e configuração de sistemas CCTV</li>
                   </ul>
                 </div>
-                <div class="card-footer d-flex justify-content-between">
-                  <div class="server-icons">
-                    <i class="ri-share-line me-2"></i>
-                    <i class="ri-loop-left-line"></i>
-                  </div>
-                </div>
-                <div class="timeline-event-time">20th January</div>
               </div>
             </li>
+
+            <!-- Projetos -->
             <li class="timeline-item">
-              <span class="timeline-indicator timeline-indicator-info" data-aos="zoom-in" data-aos-delay="200">
-                <i class="ri-store-2-line ri-20px"></i>
+              <span class="timeline-indicator timeline-indicator-danger" data-aos="zoom-in" data-aos-delay="200">
+                <i class="ri-code-s-slash-line ri-20px"></i>
               </span>
               <div class="timeline-event card p-0" data-aos="fade-right">
                 <div class="card-header d-flex justify-content-between">
-                  <h6 class="card-title mb-0"><span class="align-middle">Online Store</span></h6>
-                  <i class="ri-more-2-line cursor-pointer"></i>
+                  <h6 class="card-title mb-0"><span class="align-middle">Sistema de Gestão Acadêmica (SGA)</span></h6>
+                  <span class="badge rounded-pill bg-label-danger">2024 - 2025</span>
                 </div>
                 <div class="card-body pt-0">
-                  <p>
-                    Develop an online store of electronic devices for the provided layout, as well as develop a
-                    mobile version of it. The must be compatible with any CMS.
-                  </p>
-                  <div class="d-flex flex-wrap flex-sm-row flex-column">
-                    <div class="mb-sm-0 mb-4 me-12">
-                      <p class="text-muted mb-2">Developers</p>
-                      <div class="d-flex align-items-center">
-                        <div class="avatar avatar-xs me-2">
-                          <span class="avatar-initial rounded-circle bg-label-info">A</span>
-                        </div>
-                        <div class="avatar avatar-xs me-2">
-                          <span class="avatar-initial rounded-circle bg-label-success">B</span>
-                        </div>
-                        <div class="avatar avatar-xs">
-                          <span class="avatar-initial rounded-circle bg-label-danger">C</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mb-sm-0 mb-4 me-12">
-                      <p class="text-muted mb-2">Deadline</p>
-                      <p class="mb-0">20 Dec 2077</p>
-                    </div>
-                    <div>
-                      <p class="text-muted mb-2">Budget</p>
-                      <p class="mb-0">$50000</p>
-                    </div>
-                  </div>
+                  <p>Universidade Lúrio</p>
+                  <ul>
+                    <li>Análise de requisitos, modelagem do negócio e estimativa de custos</li>
+                    <li>Engenharia de software utilizando a metodologia RUP</li>
+                    <li>Desenho e implementação de base de dados com PostgreSQL</li>
+                    <li>Frontend desenvolvido em Next.js e backend em Java/Spring Boot</li>
+                    <li>Testes de integração e unitários com JUnit</li>
+                  </ul>
                 </div>
-                <div class="timeline-event-time">25th January</div>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <span class="timeline-indicator timeline-indicator-primary" data-aos="zoom-in" data-aos-delay="200">
+                <i class="ri-window-line ri-20px"></i>
+              </span>
+              <div class="timeline-event card p-0" data-aos="fade-left">
+                <div class="card-header d-flex justify-content-between">
+                  <h6 class="card-title mb-0"><span class="align-middle">Desenvolvimento Web - conversu.co.mz</span></h6>
+                  <span class="badge rounded-pill bg-label-primary">2023</span>
+                </div>
+                <div class="card-body pt-0">
+                  <p>Prestador de Serviços</p>
+                  <ul>
+                    <li>Projeção e desenvolvimento do website utilizando PHP, HTML, CSS, JavaScript e jQuery</li>
+                    <li>Criação de painel de controle para gerenciamento de conteúdo</li>
+                    <li>Projeção e implementação da base de dados em MySQL</li>
+                    <li>Configuração de domínios e hospedagem no Hostinger</li>
+                    <li>Treinamento de usuários finais</li>
+                  </ul>
+                </div>
               </div>
             </li>
           </ul>
         </div>
+
       </div>
 
     </div>
