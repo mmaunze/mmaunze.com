@@ -63,7 +63,7 @@
 
     <!-- Not Authorized -->
     <div class="misc-wrapper">
-        <h1 class="mb-2 mx-2" style="font-size: 6rem; line-height: 6rem">401</h1>
+        <h1 class="mb-2 mx-2" style="font-size: 6rem; line-height: 6rem">403</h1>
         <h4 class="mb-2">Acesso Negado! 🔐</h4>
         <p class="mb-3 mx-2">Você não tem permissão para acessar esta página. Voltar ao Inicio!</p>
         <div class="d-flex justify-content-center mt-12">
