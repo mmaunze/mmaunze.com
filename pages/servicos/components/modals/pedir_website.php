@@ -166,11 +166,11 @@
                                     </div>
                                 </div>
                                 <button class="btn btn-success btn-submit" id="submitBtn">
-                                <span class="align-middle d-none d-sm-block me-2">Enviar Pedido</span><i class="ri-check-line"></i>
-                            </button>
+                                    <span class="align-middle d-none d-sm-block me-2">Enviar Pedido</span><i class="ri-check-line"></i>
+                                </button>
                             </div>
 
-                            
+
                         </form>
                     </div>
                 </div>
@@ -223,16 +223,21 @@
 
         // Enviar dados via AJAX
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "/path/to/your/submit-endpoint", true);
+        xhr.open("POST", "components/modals/processar_pedido.php", true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {
-                alert("Pedido enviado com sucesso!");
-                // Fechar modal
-                $('#createApp').modal('hide');
-            } else if (xhr.readyState == 4) {
-                alert("Ocorreu um erro. Tente novamente.");
+                var response = JSON.parse(xhr.responseText);
+                if (response.status == "success") {
+                    alert(response.message); // Exibe a mensagem de sucesso
+                    $('#createApp').modal('hide'); // Fecha o modal
+                } else {
+                    alert(response.message); // Exibe a mensagem de erro
+                }
             }
         };
+
         xhr.send(formData);
     });
 </script>
