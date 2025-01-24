@@ -11,6 +11,6 @@ RewriteRule ^(.*)$ $1.php
 
 # Páginas de erro personalizadas
 
-ErrorDocument 404 pages/error/404.php
-ErrorDocument 500 pages/error/500.php
-ErrorDocument 403 pages/error/401.php
+ErrorDocument 404 /pages/error/404.php
+ErrorDocument 500 /pages/error/500.php
+ErrorDocument 403 /pages/error/401.php
