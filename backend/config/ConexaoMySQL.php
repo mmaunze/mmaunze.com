@@ -2,9 +2,9 @@
 class ConexaoMysql
 {
     private $host = 'localhost';
-    private $usuario = 'root';
-    private $senha = 'Pa$$w0rd';
-    private $db = 'meldo_maunze';
+    private $usuario = 'u555788673_dba_mmaunze';
+    private $senha = 'Maunze@mmaunze.com@Meld0';
+    private $db = 'u555788673_db_mmaunzecom';
     private $conexao;
 
 
