@@ -14,7 +14,7 @@
                 </a>
             </div>
             <div class="col-lg-6 pt-lg-12">
-                <img src="assets/img/front-pages/landing-page/cta-dashboard.png" alt="Imagem do dashboard CTA" class="img-fluid" />
+                <img src="assets/img/portfolio/xicola/alunos.png" alt="Imagem do dashboard CTA" class="img-fluid" />
             </div>
         </div>
     </div>
