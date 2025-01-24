@@ -26,7 +26,7 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="../../../assets/img/favicon/favicon.ico"
+      href="../../../assets/img/favicon/favicon.png"
     />
 
     <!-- Fonts -->
