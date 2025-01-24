@@ -10,7 +10,7 @@
                     <p class="text-body mb-6 mb-md-11">
                         Apos a sumissao do pedido vai receber um email com os detalhes adiconais.
                     </p>
-                    <a href="payment-page.html" class="btn btn-info">Soicitar servico</a>
+                    <a  class="btn btn-info">Soicitar servico</a>
                 </div>
                 <div class="text-center">
                     <img
