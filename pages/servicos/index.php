@@ -25,7 +25,7 @@
   <?php include '../layout/navbar.php'  ?>
   <?php include 'components/precario.php' ?>
 
- 
+  <?php include 'components/tabela.php' ?>
   <?php include 'components/entrar_em_contacto.php' ?>
   <?php include 'components/faq.php' ?>
   <?php include '../layout/footer.php' ?>
