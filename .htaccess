@@ -1,0 +1,16 @@
+# Proibir listagem de diretórios
+
+Options -Indexes
+
+# Remoção de extensão de arquivo na URL
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# Páginas de erro personalizadas
+
+ErrorDocument 404 pages/error/404.php
+ErrorDocument 500 pages/error/500.php
+ErrorDocument 403 pages/error/401.php
