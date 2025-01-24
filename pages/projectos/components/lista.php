@@ -1,12 +1,19 @@
 <?php
-require_once '../../backend/config/ConexaoMySQL.php';
+$servername = "localhost";
+$username = "u555788673_dba_mmaunze";
+$password = "Maunze@mmaunze.com@Meld0";
+$dbname = "u555788673_db_mmaunzecom";
 
-// Criar conexão
-$conn = new ConexaoMySQL();
 
-$conn->conectar();
+// Criar a conexão
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-// Função para buscar todos os artigos
+// Verificar a conexão
+if ($conn->connect_error) {
+    die("Conexão falhou: " . $conn->connect_error);
+}
+
+// Função para buscar todos os websites
 function buscarWebsites($conn)
 {
     $sql = "SELECT projecto.*, tipo_projecto.descricao AS tipo_projecto 
@@ -43,7 +50,6 @@ function buscarSistemas($conn)
     return $sistemas;
 }
 
-
 function buscarCategorias($conn)
 {
     $sql = "SELECT tp.*, COUNT(tp.id) AS total_projectos 
@@ -54,16 +60,14 @@ function buscarCategorias($conn)
     return $result->fetch_all(MYSQLI_ASSOC);
 }
 
-
 // Buscar dados
 $websites = buscarWebsites($conn);
 $sistemas = buscarSistemas($conn);
 $total_projectos = buscarCategorias($conn);
 
 // Fechar conexão
-$conn->fecharConexao();
+$conn->close();
 ?>
-
 
 
 <section class="section-py bg-body">
