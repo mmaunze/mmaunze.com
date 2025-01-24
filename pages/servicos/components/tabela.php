@@ -42,14 +42,20 @@ $conn->close();
             <table class="table table-striped text-center mb-0">
                 <thead>
                     <tr>
-                        <th scope="col"><p class="mb-0">Serviço</p></th>
-                        <th scope="col"><p class="mb-1">Singular</p></th>
+                        <th scope="col">
+                            <p class="mb-0">Serviço</p>
+                        </th>
+                        <th scope="col">
+                            <p class="mb-1">Singular</p>
+                        </th>
                         <th scope="col">
                             <div class="d-flex justify-content-center align-items-center">
                                 <p class="mb-0 me-1">Empresa Pública</p>
                             </div>
                         </th>
-                        <th scope="col"><p class="mb-1">Empresa Privada</p></th>
+                        <th scope="col">
+                            <p class="mb-1">Empresa Privada</p>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
