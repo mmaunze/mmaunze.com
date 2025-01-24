@@ -6,7 +6,7 @@
 <head>
   <?php include '../layout/header.php' ?>
 
-  <title>Projectos | Meldo Maunze - Engenheiro Informático</title>
+  <title>Projectos | Meldo Maúnze - Aquele gajo da Informática</title>
 
 </head>
 

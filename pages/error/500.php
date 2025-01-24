@@ -14,7 +14,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Server Error | Meldo Maunze - Engenheiro Informático</title>
+    <title>Erro do Servidor | Meldo Maúnze - Aquele gajo da Informática</title>
 
     <meta name="description" content="" />
 
@@ -63,8 +63,8 @@
     <!-- Server Error -->
     <div class="misc-wrapper">
       <h1 class="mb-2 mx-2" style="font-size: 6rem; line-height: 6rem">500</h1>
-      <h4 class="mb-2">Internal server error 🔐</h4>
-      <p class="mb-3 mx-2">Oops somthing went wrong.</p>
+      <h4 class="mb-2">Erro do Servidor 🔐</h4>
+      <p class="mb-3 mx-2">Oops ! Algo deu errado.</p>
       <div class="d-flex justify-content-center mt-12">
         <img
           src="../../assets/img/illustrations/misc-error-object.png"

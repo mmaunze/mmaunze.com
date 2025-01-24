@@ -8,7 +8,7 @@
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Portfolio | Meldo Maunze - Engenheiro Informático</title>
+  <title>Portfolio | Meldo Maúnze - Aquele gajo da Informática</title>
 
   <meta name="description" content="" />
 
@@ -663,7 +663,7 @@
                 <div class="row g-5">
                   <div class="col-md-6">
                     <div class="form-floating form-floating-outline">
-                      <input type="text" class="form-control" id="basic-default-fullname" placeholder="Meldo Maunze" />
+                      <input type="text" class="form-control" id="basic-default-fullname" placeholder="Meldo Maúnze" />
                       <label for="basic-default-fullname">Nome Completo</label>
                     </div>
                   </div>

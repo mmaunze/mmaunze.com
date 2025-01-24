@@ -15,7 +15,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Error | Meldo Maunze - Engenheiro Informático </title>
+  <title>Página Não Encontrada | Meldo Maúnze - Aquele gajo da Informática </title>
 
   <meta name="description" content="" />
 

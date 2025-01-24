@@ -8,7 +8,7 @@
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Sobre mim | Meldo Maunze - Engenheiro Informático</title>
+  <title>Sobre mim | Meldo Maúnze - Aquele gajo da Informática</title>
 
   <?php include '../layout/header.php' ?>
 

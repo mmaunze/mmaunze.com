@@ -8,7 +8,7 @@
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Página Inicial | Meldo Maunze - Engenheiro Informático</title>
+  <title>Página Inicial | Meldo Maúnze - Aquele gajo da Informática</title>
 
   <meta name="description" content="" />
 
@@ -58,7 +58,7 @@
       
         <a href="/" class="app-brand-link">
 
-          <span class="app-brand-text demo menu-text fw-semibold ms-2 ps-1">Meldo Maunze</span>
+          <span class="app-brand-text demo menu-text fw-semibold ms-2 ps-1">Meldo Maúnze</span>
         </a>
       </div>
       <ul class="navbar-nav flex-row align-items-center ms-auto">

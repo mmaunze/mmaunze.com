@@ -11,7 +11,7 @@
         <!-- Mobile menu toggle: End-->
         <a href="/" class="app-brand-link">
 
-          <span class="app-brand-text demo menu-text fw-semibold ms-2 ps-1">Meldo Maunze</span>
+          <span class="app-brand-text demo menu-text fw-semibold ms-2 ps-1">Meldo Maúnze</span>
         </a>
       </div>
       <!-- Menu logo wrapper: End -->

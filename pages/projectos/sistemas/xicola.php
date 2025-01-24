@@ -17,7 +17,7 @@
     />
 
     <title>
-      - Front Pages | Materialize - Material Design HTML Admin Template
+  Xicola - Sistema de Gestão Escolar Completo | Meldo Maúnze - Aquele gajo da Informática
     </title>
 
     <meta name="description" content="" />
@@ -103,7 +103,7 @@
           <!-- Mobile menu toggle: End-->
           <a href="/" class="app-brand-link">
             <span class="app-brand-text demo menu-text fw-semibold ms-2 ps-1"
-              >Meldo Maunze</span
+              >Meldo Maúnze</span
             >
           </a>
         </div>
@@ -415,7 +415,7 @@
               </script>
   
             </span>
-            <a href="https://mmaunze.com" target="_blank" class="footer-link fw-medium footer-theme-link">Meldo Maunze</a>
+            <a href="https://mmaunze.com" target="_blank" class="footer-link fw-medium footer-theme-link">Meldo Maúnze</a>
           </div>
         </div>
       </div>

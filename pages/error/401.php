@@ -15,7 +15,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Not Authorized | Meldo Maunze - Engenheiro Informático</title>
+    <title>Acesso Negado | Meldo Maúnze - Aquele gajo da Informática</title>
 
     <meta name="description" content="" />
 
@@ -64,8 +64,8 @@
     <!-- Not Authorized -->
     <div class="misc-wrapper">
         <h1 class="mb-2 mx-2" style="font-size: 6rem; line-height: 6rem">401</h1>
-        <h4 class="mb-2">You are not authorized! 🔐</h4>
-        <p class="mb-3 mx-2">You don’t have permission to access this page. Go Home!</p>
+        <h4 class="mb-2">Acesso Negado! 🔐</h4>
+        <p class="mb-3 mx-2">Você não tem permissão para acessar esta página. Voltar ao Inicio!</p>
         <div class="d-flex justify-content-center mt-12">
             <img
                 src="../../assets/img/illustrations/misc-not-authorized-object.png"

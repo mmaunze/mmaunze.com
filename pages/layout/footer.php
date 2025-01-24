@@ -22,7 +22,7 @@
                         document.write(new Date().getFullYear());
                     </script>
                 </span>
-                <a href="https://mmaunze.com" target="_blank" class="footer-link fw-medium footer-theme-link">Meldo Maunze</a>
+                <a href="https://mmaunze.com" target="_blank" class="footer-link fw-medium footer-theme-link">Meldo Maúnze</a>
             </div>
         </div>
     </div>

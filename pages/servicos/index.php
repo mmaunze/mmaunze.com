@@ -12,7 +12,7 @@
 <head>
   
   <title>
-    Servicos | Meldo Maunze - Engenheiro Informático
+  Serviços | Meldo Maúnze - Aquele gajo da Informática
   </title>
 
   <?php include '../layout/header.php' ?>
