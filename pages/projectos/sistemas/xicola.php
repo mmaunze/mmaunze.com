@@ -224,131 +224,164 @@
     <!-- Sections:Start -->
 
     <section class="section-py first-section-pt">
-      <div class="container">
-        <div class="row gy-6 gy-lg-0">
-          <div class="col-lg-12 mb-3">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb mb-2 row-gap-1">
-                <li class="breadcrumb-item">
-                  <a href="javascript:void(0);">Help Centre</a>
-                </li>
-                <li class="breadcrumb-item">
-                  <a href="javascript:void(0);">Buying and item support</a>
-                </li>
-                <li class="breadcrumb-item active">Template kits</li>
-              </ol>
-            </nav>
-            <h4 class="mb-4">How to add product in cart?</h4>
-            <p>1 month ago - Updated</p>
-            <hr class="my-6" />
-          </div>
-          <div class="col-lg-4">
-            <div class="input-group input-group-merge mb-6">
-              
-              
-            </div>
-            <div class="bg-lighter py-2 px-5 rounded-3">
-              <h5 class="mb-0">Articles in this section</h5>
-            </div>
-            <ul class="list-unstyled mt-4 mb-0">
-              <li class="mb-4">
-                <a
-                  href="javascript:void(0)"
-                  class="text-heading d-flex justify-content-between align-items-center"
-                >
-                  <span class="text-truncate me-1"> Template Kits </span>
-                  <i
-                    class="tf-icons ri-arrow-right-s-line ri-20px scaleX-n1-rtl text-muted"
-                  ></i>
-                </a>
-              </li>
-              <li class="mb-4">
-                <a
-                  href="javascript:void(0)"
-                  class="text-heading d-flex justify-content-between align-items-center"
-                >
-                  <span class="text-truncate me-1">
-                    Envato Elements Template Kits - Importing Issues
-                  </span>
-                  <i
-                    class="tf-icons ri-arrow-right-s-line ri-20px scaleX-n1-rtl text-muted"
-                  ></i>
-                </a>
-              </li>
-              <li class="mb-4">
-                <a
-                  href="javascript:void(0)"
-                  class="text-heading d-flex justify-content-between align-items-center"
-                >
-                  <span class="text-truncate me-1">
-                    Envato Elements Template Kits - Troubleshooting
-                  </span>
-                  <i
-                    class="tf-icons ri-arrow-right-s-line ri-20px scaleX-n1-rtl text-muted"
-                  ></i>
-                </a>
-              </li>
-              <li class="mb-4">
-                <a
-                  href="javascript:void(0)"
-                  class="text-heading d-flex justify-content-between align-items-center"
-                >
-                  <span class="text-truncate me-1">
-                    How to use the template in WordPress
-                  </span>
-                  <i
-                    class="tf-icons ri-arrow-right-s-line ri-20px scaleX-n1-rtl text-muted"
-                  ></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0)"
-                  class="text-heading d-flex justify-content-between align-items-center"
-                >
-                  <span class="text-truncate me-1">
-                    How to use the Template Kit Import plugin
-                  </span>
-                  <i
-                    class="tf-icons ri-arrow-right-s-line ri-20px scaleX-n1-rtl text-muted"
-                  ></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-8">
-            
-            <p>
-              If you’re after only one item, simply choose the ‘Buy Now’ option
-              on the item page. This will take you directly to Checkout.
-            </p>
-            <p class="mb-0">
-              If you want several items, use the ‘Add to Cart’ button and then
-              choose ‘Keep Browsing’ to continue shopping or ‘Checkout’ to
-              finalise your purchase.
-            </p>
-            <div class="my-6">
-              <img
-                src="../../../assets/img/front-pages/misc/product-image.png"
-                alt="product"
-                class="img-fluid w-100"
-              />
-            </div>
-            <p class="mb-0">
-              You can go back to your cart at any time by clicking on the
-              shopping cart icon at the top right side of the page.
-            </p>
-            <div class="mt-6">
-              <img
-                src="../../../assets/img/front-pages/misc/checkout-image.png"
-                alt="product"
-                class="img-fluid w-100"
-              />
-            </div>
-          </div>
+  <div class="container">
+    <div class="row gy-6 gy-lg-0">
+      <!-- Breadcrumb -->
+      <div class="col-lg-12 mb-3">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2 row-gap-1">
+            <li class="breadcrumb-item">
+              <a href="javascript:void(0);">Sistema de Gestão Escolar</a>
+            </li>
+            <li class="breadcrumb-item active">Descrição do Sistema</li>
+          </ol>
+        </nav>
+        <h4 class="mb-4">Visão Geral do Sistema</h4>
+        <p>O Sistema de Gestão Escolar foi desenvolvido para facilitar o gerenciamento de atividades escolares, integrando funcionalidades de gestão acadêmica, financeira, de comunicação e muito mais.</p>
+        <hr class="my-6" />
+      </div>
+
+      <!-- Sidebar de navegação -->
+      <div class="col-lg-4">
+        <div class="bg-lighter py-2 px-5 rounded-3">
+          <h5 class="mb-0">Seções do Sistema</h5>
+        </div>
+        <ul class="list-unstyled mt-4 mb-0">
+          <li class="mb-4">
+            <a href="#funcionalidades" class="text-heading" data-bs-toggle="collapse">
+              <i class="tf-icons ri-arrow-right-s-line ri-20px text-muted"></i> Funcionalidades
+            </a>
+          </li>
+          <li class="mb-4">
+            <a href="#tecnologias" class="text-heading" data-bs-toggle="collapse">
+              <i class="tf-icons ri-arrow-right-s-line ri-20px text-muted"></i> Tecnologias Utilizadas
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Descrição do sistema -->
+      <div class="col-lg-8">
+        <!-- Funcionalidades -->
+        <div class="collapse" id="funcionalidades">
+          <h5>Funcionalidades</h5>
+          <ul>
+            <li><strong>Gestão de Usuários:</strong> Autenticação e gerenciamento de perfis.</li>
+            <li><strong>Gestão Acadêmica:</strong> Matrículas, transferências, turmas, cursos e calendário.</li>
+            <li><strong>Gestão de Notas e Frequência:</strong> Lançamento e consulta de notas, controle de frequência.</li>
+            <li><strong>Gestão de Disciplinas e Currículo:</strong> Cadastro e organização das disciplinas e currículos.</li>
+            <li><strong>Comunicação:</strong> Mensagens internas e notificações via e-mail e SMS.</li>
+            <li><strong>Gestão Financeira:</strong> Controle de mensalidades, pagamentos e relatórios financeiros.</li>
+            <li><strong>Biblioteca:</strong> Empréstimos, devoluções e consulta ao acervo bibliográfico.</li>
+            <li><strong>Infraestrutura e Manutenção:</strong> Controle de patrimônio e pedidos de manutenção.</li>
+          </ul>
+        </div>
+
+        <!-- Tecnologias -->
+        <div class="collapse" id="tecnologias">
+          <h5>Tecnologias Utilizadas</h5>
+          <ul>
+            <li><strong>Vue.js:</strong> Framework para o desenvolvimento do frontend.</li>
+            <li><strong>Vue Router:</strong> Para gerenciamento de rotas.</li>
+            <li><strong>Vuex:</strong> Para gerenciamento de estado.</li>
+            <li><strong>Axios:</strong> Para requisições HTTP.</li>
+            <li><strong>Vuetify:</strong> Para componentes de interface.</li>
+          </ul>
+        </div>
+
+        <!-- Screenshots -->
+
+<section class="section-py first-section-pt">
+  <div class="container">
+    <h5>Screenshots</h5>
+    <div id="screenshotCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Controles -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#screenshotCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#screenshotCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#screenshotCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#screenshotCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#screenshotCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#screenshotCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#screenshotCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#screenshotCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <a href="../../../assets/img/portfolio/xicola/loading.png" data-bs-toggle="lightbox" data-bs-target="#screenshot1">
+            <img src="../../../assets/img/portfolio/xicola/loading.png" alt="Screenshot 1" class="d-block w-100">
+          </a>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <a href="../../../assets/img/portfolio/xicola/alunos.png" data-bs-toggle="lightbox" data-bs-target="#screenshot2">
+            <img src="../../../assets/img/portfolio/xicola/alunos.png" alt="Screenshot 2" class="d-block w-100">
+          </a>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <a href="../../../assets/img/portfolio/xicola/detalhes_aluno.png" data-bs-toggle="lightbox" data-bs-target="#screenshot3">
+            <img src="../../../assets/img/portfolio/xicola/detalhes_aluno.png" alt="Screenshot 3" class="d-block w-100">
+          </a>
+        </div>
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+          <a href="../../../assets/img/portfolio/xicola/formularios_academicos.png" data-bs-toggle="lightbox" data-bs-target="#screenshot4">
+            <img src="../../../assets/img/portfolio/xicola/formularios_academicos.png" alt="Screenshot 4" class="d-block w-100">
+          </a>
+        </div>
+        <!-- Slide 5 -->
+        <div class="carousel-item">
+          <a href="../../../assets/img/portfolio/xicola/formularios_pagamento.png" data-bs-toggle="lightbox" data-bs-target="#screenshot5">
+            <img src="../../../assets/img/portfolio/xicola/formularios_pagamento.png" alt="Screenshot 5" class="d-block w-100">
+          </a>
+        </div>
+        <!-- Slide 6 -->
+        <div class="carousel-item">
+          <a href="../../../assets/img/portfolio/xicola/pagamentos.png" data-bs-toggle="lightbox" data-bs-target="#screenshot6">
+            <img src="../../../assets/img/portfolio/xicola/pagamentos.png" alt="Screenshot 6" class="d-block w-100">
+          </a>
+        </div>
+        <!-- Slide 7 -->
+        <div class="carousel-item">
+          <a href="../../../assets/img/portfolio/xicola/portal_aluno.png" data-bs-toggle="lightbox" data-bs-target="#screenshot7">
+            <img src="../../../assets/img/portfolio/xicola/portal_aluno.png" alt="Screenshot 7" class="d-block w-100">
+          </a>
+        </div>
+        <!-- Slide 8 -->
+        <div class="carousel-item">
+          <a href="../../../assets/img/portfolio/xicola/turmas.png" data-bs-toggle="lightbox" data-bs-target="#screenshot8">
+            <img src="../../../assets/img/portfolio/xicola/turmas.png" alt="Screenshot 8" class="d-block w-100">
+          </a>
         </div>
       </div>
-    </section>
+
+      <!-- Controles do Carrossel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#screenshotCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#screenshotCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS (necessário para o colapso funcionar) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <!-- / Sections:End -->
 
