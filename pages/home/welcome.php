@@ -1,11 +1,8 @@
-<section id="landingHero" class="section-py landing-hero position-relative">
-    <img src="assets/img/front-pages/backgrounds/hero-bg-light.png" alt="hero background"
-        class="position-absolute top-0 start-0 w-100 h-100 z-n1" data-speed="1"
-        data-app-light-img="front-pages/backgrounds/hero-bg-light.png"
-        data-app-dark-img="front-pages/backgrounds/hero-bg-dark.png" />
+<section id="landingHero" class="section-py landing-hero bg-body position-relative">
+ 
     <div class="container">
         <div class="hero-text-box text-center">
-            <h3 class="text-info hero-title  fs-4">Tenha a tranquilidade de um departamento de TI completo, com a
+            <h3 class="text-secondary hero-title   fs-4">Tenha a tranquilidade de um departamento de TI completo, com a
                 agilidade e foco de um único profissional.</h3>
             <h2 class="h6 mb-8">
                 Possuo uma vasta qualificação em múltiplas áreas da computação<br /> desde redes até Inteligência

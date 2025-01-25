@@ -49,14 +49,18 @@
           </ul>
         </div>
         <div class="landing-menu-overlay d-lg-none"></div>
-        <!-- Menu wrapper: End -->
-        <!-- Style Switcher -->
+       
         <li class="nav-item dropdown-style-switcher dropdown me-2 me-xl-0">
           <a class="nav-link btn btn-text-secondary rounded-pill btn-icon dropdown-toggle hide-arrow me-sm-4"
             href="javascript:void(0);" data-bs-toggle="dropdown">
             <i class="ri-22px text-heading"></i>
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-styles">
+          <li>
+              <a class="dropdown-item" href="javascript:void(0);" data-theme="system">
+                <span class="align-middle"><i class="ri-computer-line ri-22px me-3"></i>Sistema</span>
+              </a>
+            </li>
             <li>
               <a class="dropdown-item" href="javascript:void(0);" data-theme="light">
                 <span class="align-middle"><i class="ri-sun-line ri-22px me-3"></i>Claro</span>
@@ -67,23 +71,17 @@
                 <span class="align-middle"><i class="ri-moon-clear-line ri-22px me-3"></i>Escuro</span>
               </a>
             </li>
-            <li>
-              <a class="dropdown-item" href="javascript:void(0);" data-theme="system">
-                <span class="align-middle"><i class="ri-computer-line ri-22px me-3"></i>Sistema</span>
-              </a>
-            </li>
+            
           </ul>
         </li>
-        <!-- / Style Switcher-->
-
-        <!-- navbar button: Start -->
+        
         <li>
           <a href="https://www.mmaunze.com/assets/Meldo%20Leonardo%20Maúnze%20-%20%20CV.pdf" class="btn btn-info px-2 px-sm-4 px-lg-2 px-xl-4"
             target="_blank"><span class="tf-icons ri-download-2-line me-md-1"></span><span class="d-none d-md-block">Meu
               CV</span></a>
         </li>
-        <!-- navbar button: End -->
+       
       </ul>
-      <!-- Toolbar: End -->
+     
     </div>
   </nav>
