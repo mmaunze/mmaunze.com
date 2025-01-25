@@ -1,7 +1,7 @@
 <!doctype html>
 
 <html
-  lang="en"
+  lang="PT"
   class="light-style layout-wide customizer-hide"
   dir="ltr"
   data-theme="theme-default"
