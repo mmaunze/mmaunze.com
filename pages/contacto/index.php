@@ -35,7 +35,7 @@
             </iframe>
 
           </div>
-          <a href="https://linkedin.com/in/mmaunze" class="btn btn-sm btn-info"><i class=" ri-linkedin-line"></i></a>
+          <a href="https://linkedin.com/in/mmaunze" class="btn btn-sm btn-primary"><i class=" ri-linkedin-line"></i></a>
         </div>
       </div>
       <div class="col-md-12 mt-12 col-lg-4">
@@ -46,7 +46,7 @@
             </iframe>
 
           </div>
-          <a href="https://twitter.com/mlmaunze" class="btn btn-sm btn-outline-info"><i class=" ri-twitter-line"></i></a>
+          <a href="https://twitter.com/mlmaunze" class="btn btn-sm btn-outline-primary"><i class=" ri-twitter-line"></i></a>
         </div>
       </div>
       <div class="col-md-12 mt-12 col-lg-4">

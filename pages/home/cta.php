@@ -4,11 +4,11 @@
     <div class="container">
         <div class="row align-items-center gy-5 gy-lg-0">
             <div class="col-lg-6 text-center text-lg-start">
-                <h3 class="display-5 text-info fw-bold mb-1 h3">Ainda não está convencido?</h3>
+                <h3 class="display-5 text-primary fw-bold mb-1 h3">Ainda não está convencido?</h3>
                 <p class="fw-medium mb-6 mb-md-8">
                     Explore nossa seleção de trabalhos e projetos que certamente vão mudar sua percepção!
                 </p>
-                <a href="pages/projectos" class="btn btn-info">
+                <a href="pages/projectos" class="btn btn-primary">
                     Ver Trabalhos Anteriores
                     <i class="ri-arrow-right-line ri-16px ms-2 scaleX-n1-rtl"></i>
                 </a>

@@ -25,18 +25,18 @@
     <div class="row overflow-hidden">
       <div class="col-lg-12 m-10 ">
         <div class="timeline-event m-10 card p-0" data-aos="fade-right">
-          <h6 class="card-header text-info text-uppercase fw-bold">Sobre Mim</h6>
+          <h6 class="card-header text-primary text-uppercase fw-bold">Sobre Mim</h6>
           <div class="card-body">
             <p class="mb-4">Sou IT, Programador e Analista/Engenheiro de Software, formado pela UniLúrio, com 4 anos de experiência no desenvolvimento e análise de soluções tecnológicas inovadoras. Minha missão é criar software eficiente e de impacto, adaptado às necessidades dos clientes.</p>
 
-            <button class="btn btn-outline-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               Detalhes e Habilidades
             </button>
 
             <div class="collapse mt-4" id="collapseExample">
               <!-- Seção de Habilidades Técnicas -->
-              <div class="mb-5">
-                <h6 class="text-uppercase fw-bold text-info">Habilidades Técnicas</h6>
+              <div class="m-5">
+                <h6 class="text-uppercase fw-bold text-primary">Habilidades Técnicas</h6>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
                     <small>Análise de Softwares</small>
@@ -85,7 +85,7 @@
 
               <!-- Seção de Competências Pessoais -->
               <div>
-                <h6 class="text-uppercase fw-bold text-info">Competências Pessoais</h6>
+                <h6 class="text-uppercase fw-bold text-primary">Competências Pessoais</h6>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item"><small>Trabalho em equipe e colaboração eficaz</small></li>
                   <li class="list-group-item"><small>Capacidade analítica e resolução de problemas</small></li>
@@ -96,21 +96,19 @@
             </div>
           </div>
         </div>
-
-
-        <div class="col-12 m-11">
-          <ul class="timeline timeline-center mt-12">
+        <div class="col-12 m-2">
+          <ul class="timeline timeline-center  p-12">
             <!-- Formação -->
             <li class="timeline-item">
-              <span class="timeline-indicator timeline-indicator-info" data-aos="zoom-in" data-aos-delay="200">
+              <span class="timeline-indicator timeline-indicator-primary" data-aos="zoom-in" data-aos-delay="200">
                 <i class="ri-graduation-cap-line ri-20px"></i>
               </span>
-              <div class="timeline-event card p-0" data-aos="fade-right">
+              <div class="timeline-event card p-0 " data-aos="fade-right">
                 <div class="card-header d-flex justify-content-between">
                   <h6 class="card-title mb-0"><span class="align-middle">Licenciatura em Engenharia Informática</span></h6>
                   <span class="badge rounded-pill bg-label-primary">2020 - 2024</span>
                 </div>
-                <div class="card-body pt-0">
+                <div class="card-body pt-0 m-12">
                   <p>Universidade Lúrio, Pemba, Cabo Delgado, Moçambique</p>
                   <ul>
                     <li>Redes de Computadores e Segurança</li>
@@ -214,7 +212,6 @@
             </li>
           </ul>
         </div>
-
       </div>
 
     </div>

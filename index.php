@@ -117,7 +117,7 @@
         </li>
 
         <li>
-          <a href="https://www.mmaunze.com/assets/Meldo%20Leonardo%20Maúnze%20-%20%20CV.pdf" class="btn btn-info px-2 px-sm-4 px-lg-2 px-xl-4"
+          <a href="https://www.mmaunze.com/assets/Meldo%20Leonardo%20Maúnze%20-%20%20CV.pdf" class="btn btn-primary px-2 px-sm-4 px-lg-2 px-xl-4"
             target="_blank"><span class="tf-icons ri-download-2-line me-md-1"></span><span class="d-none d-md-block">Meu
               CV</span></a>
         </li>

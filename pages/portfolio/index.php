@@ -67,13 +67,13 @@
          data-app-dark-img="front-pages/backgrounds/hero-bg-dark.png" />
     <div class="container">
       <div class="hero-text-box text-center">
-        <h3 class="text-info hero-title  fs-4">Tenha a tranquilidade de um departamento de TI completo, com a
+        <h3 class="text-primary hero-title  fs-4">Tenha a tranquilidade de um departamento de TI completo, com a
           agilidade e foco de um único profissional.</h3>
         <h2 class="h6 mb-8">
           Possuo uma vasta qualificação em múltiplas áreas da computação<br /> desde redes até Inteligência
           Artificial.
         </h2>
-        <a href="sobre" class="btn btn-lg btn-info">Saiba Mais</a>
+        <a href="sobre" class="btn btn-lg btn-primary">Saiba Mais</a>
       </div>
       <div class="position-relative hero-animation-img">
         <a href="servicos">
@@ -87,8 +87,8 @@
 
               <div class="row gy-lg-5 gy-12 mt-2">
                 <div class="col-lg-3 col-sm-6">
-                  <div class="card card-hover-border-info mt-4 mt-lg-0 shadow-none">
-                    <div class="bg-label-info position-relative team-image-box">
+                  <div class="card card-hover-border-primary mt-4 mt-lg-0 shadow-none">
+                    <div class="bg-label-primary position-relative team-image-box">
                       <img src="../../assets/img/front-pages/landing-page/team-member-1.png"
                            class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
                            alt="human image" />
@@ -127,8 +127,8 @@
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                  <div class="card card-hover-border-info mt-4 mt-lg-0 shadow-none">
-                    <div class="bg-label-info position-relative team-image-box">
+                  <div class="card card-hover-border-primary mt-4 mt-lg-0 shadow-none">
+                    <div class="bg-label-primary position-relative team-image-box">
                       <img src="../../assets/img/front-pages/landing-page/team-member-4.png"
                            class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
                            alt="Administrador de Redes" />
@@ -463,7 +463,7 @@
     <div class="container">
       <div class="row gx-0 gy-6 gx-sm-6">
         <div class="col-md-3 col-sm-6 text-center">
-            <span class="badge rounded-pill bg-label-hover-info fun-facts-icon mb-6 p-5"><i
+            <span class="badge rounded-pill bg-label-hover-primary fun-facts-icon mb-6 p-5"><i
                     class="tf-icons ri-layout-line ri-42px"></i></span>
           <h2 class="fw-bold mb-0 fun-facts-text">17+</h2>
           <h6 class="mb-0 text-body">Servicos Feitos</h6>
@@ -481,7 +481,7 @@
           <h6 class="mb-0 text-body">Clientes</h6>
         </div>
         <div class="col-md-3 col-sm-6 text-center">
-            <span class="badge rounded-pill bg-label-hover-info fun-facts-icon mb-6 p-5"><i
+            <span class="badge rounded-pill bg-label-hover-primary fun-facts-icon mb-6 p-5"><i
                     class="tf-icons ri-award-line ri-42px"></i></span>
           <h2 class="fw-bold mb-0 fun-facts-text">23+</h2>
           <h6 class="mb-0 text-body">Projectos em curso</h6>
@@ -614,9 +614,9 @@
     <div class="container">
       <div class="row align-items-center gy-5 gy-lg-0">
         <div class="col-lg-6 text-center text-lg-start">
-          <h3 class="display-5 text-info fw-bold mb-1 h3">Ainda nao esta convencido ?</h3>
+          <h3 class="display-5 text-primary fw-bold mb-1 h3">Ainda nao esta convencido ?</h3>
           <p class="fw-medium mb-6 mb-md-8">Confira uma lista de trabahos e projectos que vao mudar sua opiniao</p>
-          <a href="projectos" class="btn btn-info">Apreciar Trabalhos Antigos<i
+          <a href="projectos" class="btn btn-primary">Apreciar Trabalhos Antigos<i
                   class="ri-arrow-right-line ri-16px ms-2 scaleX-n1-rtl"></i></a>
         </div>
         <div class="col-lg-6 pt-lg-12">
@@ -643,7 +643,7 @@
       <div class="row gy-6">
         <div class="col-lg-5">
           <div class="card h-100">
-            <div class="bg-info rounded-4 text-white card-body p-8">
+            <div class="bg-primary rounded-4 text-white card-body p-8">
               <p class="fw-medium mb-1_5 tagline">Entre em Contacto comigo</p>
               <h4 class="text-white mb-5 title">Nao hesite em mandar mensagem expondo sua preocupacao.</h4>
               <img src="../../assets/img/front-pages/landing-page/let’s-contact.png
@@ -684,7 +684,7 @@
                     </div>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-info mt-5">Enviar Mensagem</button>
+                <button type="submit" class="btn btn-primary mt-5">Enviar Mensagem</button>
               </form>
             </div>
           </div>

@@ -61,7 +61,7 @@
 
         <p class="mb-4 mx-2">Não conseguimos encontrar a página que você está procurando</p>
         <div>
-          <a href="/" class="btn btn-info text-center my-10">Voltar ao Início</a>
+          <a href="/" class="btn btn-primary text-center my-10">Voltar ao Início</a>
         </div>
       </div>
     </div>

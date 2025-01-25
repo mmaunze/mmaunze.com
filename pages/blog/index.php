@@ -215,7 +215,7 @@ $conn->close();
         <div class="row">
 
           <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
+            <div class="footer-primary">
               <h3>Conversu</h3>
               <p>
                 Nacala <br>

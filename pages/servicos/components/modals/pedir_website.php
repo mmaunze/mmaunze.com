@@ -180,7 +180,7 @@
     </div>
 </div>
 
-<button type="button" class="btn btn-info btn-outline-info" data-bs-toggle="modal" data-bs-target="#createApp">
+<button type="button" class="btn btn-primary btn-outline-primary" data-bs-toggle="modal" data-bs-target="#createApp">
     Solicitar Website
 </button>
 

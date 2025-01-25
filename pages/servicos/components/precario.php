@@ -26,7 +26,7 @@
         <div class="row gy-6 pt-md-4">
             <!-- Basic Plan: Start -->
             <div class="col-xl-4 col-lg-6">
-                <div class="card shadow-none border border-info">
+                <div class="card shadow-none border border-primary">
                     <div class="card-header border-0 p-6 p-sm-8">
                         <h4 class="mb-2 pb-1 text-center">Websites</h4>
                         <div class="d-flex align-items-center">
@@ -108,7 +108,7 @@
                                 <h6 class="mb-1">Suporte</h6>
                                 <p class="small mb-0">2 semanas</p>
                             </div>
-                            <span class="badge bg-label-info rounded-pill">Entrega. <= 2 semanas</span>
+                            <span class="badge bg-label-primary rounded-pill">Entrega. <= 2 semanas</span>
                         </div>
                         <div class="text-center mt-6 pt-2">
                             <?php include 'modals/pedir_website.php' ?>
@@ -216,7 +216,7 @@
 
             <!-- Standard Plan: Start -->
             <div class="col-xl-4 col-lg-6">
-                <div class="card shadow-none border border-info">
+                <div class="card shadow-none border border-primary">
                     <div class="card-header border-0 p-6 p-sm-8 ">
                         <h4 class="mb-2 pb-1 text-center">Consultoria</h4>
                         <div class="d-flex align-items-center">
@@ -298,12 +298,12 @@
                                 <h6 class="mb-1">suporte</h6>
                                 <p class="small mb-0">especializado</p>
                             </div>
-                            <span class="badge bg-label-info rounded-pill">Periodico</span>
+                            <span class="badge bg-label-primary rounded-pill">Periodico</span>
                         </div>
                         <div class="text-center mt-6 pt-2">
                             <a
                                 href="payment-page.html"
-                                class="btn btn-outline-info w-100">Solicitar Cotação</a>
+                                class="btn btn-outline-primary w-100">Solicitar Cotação</a>
                         </div>
                     </div>
                 </div>

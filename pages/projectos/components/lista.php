@@ -10,7 +10,7 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
                                     <div class="avatar avatar-sm flex-shrink-0 me-2">
-                                        <span class="avatar-initial bg-label-info rounded-3"><i class="tf-icons ri-globe-line ri-20px"></i></span>
+                                        <span class="avatar-initial bg-label-primary rounded-3"><i class="tf-icons ri-globe-line ri-20px"></i></span>
                                     </div>
                                     <h5 class="mb-0 ms-1">Websites</h5>
                                 </div>
@@ -90,7 +90,7 @@
                                     </li>
                                 </ul>
                                 <p class="mb-0 fw-medium mt-6">
-                                    <a href="help-center-article.html" class="d-flex text-info align-items-center">
+                                    <a href="help-center-article.html" class="d-flex text-primary align-items-center">
                                         <span class="me-3">Ver todos Websites</span>
                                         <i class="tf-icons ri-arrow-right-line scaleX-n1-rtl"></i>
                                     </a>
@@ -105,7 +105,7 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
                                     <div class="avatar avatar-sm flex-shrink-0 me-2">
-                                        <span class="avatar-initial bg-label-info rounded-3"><i class="tf-icons ri-question-line ri-20px"></i></span>
+                                        <span class="avatar-initial bg-label-primary rounded-3"><i class="tf-icons ri-question-line ri-20px"></i></span>
                                     </div>
                                     <h5 class="mb-0 ms-1">Sistemas</h5>
                                 </div>
@@ -209,7 +209,7 @@
                                     </li>
                                 </ul>
                                 <p class="mb-0 fw-medium mt-6">
-                                    <a href="help-center-article.html" class="d-flex text-info align-items-center">
+                                    <a href="help-center-article.html" class="d-flex text-primary align-items-center">
                                         <span class="me-3">Ver todos Sistemas</span>
                                         <i class="tf-icons ri-arrow-right-line scaleX-n1-rtl"></i>
                                     </a>

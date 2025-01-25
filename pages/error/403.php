@@ -68,7 +68,7 @@
                 data-app-light-img="illustrations/misc-bg-light.png"
                 data-app-dark-img="illustrations/misc-bg-dark.png" />
             <div class="d-flex flex-column align-items-center">
-                <a href="/" class="btn btn-info text-center my-10">Voltar ao Inicio</a>
+                <a href="/" class="btn btn-primary text-center my-10">Voltar ao Inicio</a>
             </div>
         </div>
     </div>

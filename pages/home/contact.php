@@ -53,7 +53,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-info btn-outline-info mt-5">Enviar Mensagem</button>
+                            <button type="submit" class="btn btn-primary btn-outline-primary mt-5">Enviar Mensagem</button>
                         </form>
                     </div>
                 </div>
