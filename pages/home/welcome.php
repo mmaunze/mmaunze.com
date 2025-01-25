@@ -24,9 +24,9 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="card card-hover-border-info mt-4 mt-lg-0 shadow-none">
                                     <div class="bg-label-info position-relative team-image-box">
-                                        <img src="assets/img/front-pages/landing-page/team-member-1.png"
+                                       <!--  <img src="assets/img/front-pages/landing-page/team-member-1.png"
                                             class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
-                                            alt="human image" />
+                                            alt="human image" />-->
                                     </div>
                                     <div class="card-body text-center">
                                         <h5 class="card-title mb-1">Desenvolvedor Web</h5>
@@ -37,9 +37,9 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="card card-hover-border-danger mt-4 mt-lg-0 shadow-none">
                                     <div class="bg-label-danger position-relative team-image-box">
-                                        <img src="assets/img/front-pages/landing-page/team-member-2.png"
+                                     <!--    <img src="assets/img/front-pages/landing-page/team-member-2.png"
                                             class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
-                                            alt="Desenvolvedor Web" />
+                                            alt="Desenvolvedor Web" />-->
                                     </div>
                                     <div class="card-body text-center">
                                         <h5 class="card-title mb-1">Engenheiro de Software</h5>
@@ -51,9 +51,9 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="card card-hover-border-success mt-4 mt-lg-0 shadow-none">
                                     <div class="bg-label-success position-relative team-image-box">
-                                        <img src="assets/img/front-pages/landing-page/team-member-3.png"
+                                     <!--    <img src="assets/img/front-pages/landing-page/team-member-3.png"
                                             class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
-                                            alt="Engenheiro de Software" />
+                                            alt="Engenheiro de Software" />-->
                                     </div>
                                     <div class="card-body text-center">
                                         <h5 class="card-title mb-1">Administrador de Redes</h5>
@@ -64,9 +64,9 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="card card-hover-border-info mt-4 mt-lg-0 shadow-none">
                                     <div class="bg-label-info position-relative team-image-box">
-                                        <img src="assets/img/front-pages/landing-page/team-member-4.png"
+                                     <!--    <img src="assets/img/front-pages/landing-page/team-member-4.png"
                                             class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
-                                            alt="Administrador de Redes" />
+                                            alt="Administrador de Redes" />-->
                                     </div>
                                     <div class="card-body text-center">
                                         <h5 class="card-title mb-1">Consultor em ICT</h5>
