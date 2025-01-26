@@ -4,9 +4,9 @@
     <div class="container">
         <div class="row align-items-center gy-5 gy-lg-0">
             <div class="col-lg-6 text-center text-lg-start">
-                <h3 class="display-5 text-primary fw-bold mb-1 h3">Ainda não está convencido?</h3>
+                <h3 class="display-5 text-primary fw-bold mb-1 h3">Procurando por algum software personaizado ?</h3>
                 <p class="fw-medium mb-6 mb-md-8">
-                    Explore nossa seleção de trabalhos e projetos que certamente vão mudar sua percepção!
+                    Explore nossa seleção de trabalhos e projetos que certamente vão concretizar os seus anseios.
                 </p>
                 <a href="pages/projectos" class="btn btn-primary">
                     Ver Trabalhos Anteriores
