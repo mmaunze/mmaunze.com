@@ -73,19 +73,19 @@
               <a class="nav-link fw-medium" aria-current="page" href="/">Página Inicial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-medium" href="../../pages/sobre">Sobre Mim</a>
+              <a class="nav-link fw-medium" href="../../../pages/sobre">Sobre Mim</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-medium" href="../../pages/projectos">Projectos</a>
+              <a class="nav-link fw-medium" href="../../../pages/projectos">Projectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-medium" href="../../pages/servicos">Serviços</a>
+              <a class="nav-link fw-medium" href="../../../pages/servicos">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-medium text-nowrap" href="../../pages/bog">Blog/Ideias</a>
+              <a class="nav-link fw-medium text-nowrap" href="../../../pages/bog">Blog/Ideias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-medium" href="../../pages/contacto">Contacto</a>
+              <a class="nav-link fw-medium" href="../../../pages/contacto">Contacto</a>
             </li>
           </ul>
         </div>
