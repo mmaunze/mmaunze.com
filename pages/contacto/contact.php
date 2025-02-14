@@ -1,11 +1,11 @@
 <section id="landingContact" class="section-py bg-body landing-contact">
     <div class="container bg-icon-left position-relative">
-        <img src="assets/img/front-pages/icons/bg-left-icon-light.png" alt="ícone decorativo"
+        <img src="../../assets/img/front-pages/icons/bg-left-icon-light.png" alt="ícone decorativo"
             class="position-absolute top-0 start-0" data-speed="1"
             data-app-light-img="front-pages/icons/bg-left-icon-light.png"
             data-app-dark-img="front-pages/icons/bg-left-icon-dark.png" />
         <h6 class="text-center d-flex justify-content-center align-items-center mb-6">
-            <img src="assets/img/front-pages/icons/section-tilte-icon.png" alt="ícone da seção" class="me-3" />
+            <img src="../../assets/img/front-pages/icons/section-tilte-icon.png" alt="ícone da seção" class="me-3" />
             <span class="text-uppercase">Fale Comigo</span>
         </h6>
         <h5 class="text-center mb-2"><span class="display-5 fs-4 fw-bold">Envie</span> sua mensagem agora mesmo</h5>
@@ -16,9 +16,9 @@
                     <div class="bg-secondary rounded-4 text-white card-body p-8">
                         <p class="fw-medium mb-1_5 tagline">Entre em contato agora</p>
                         <h4 class="text-white mb-5 title">Não hesite em enviar sua mensagem. Vamos conversar!</h4>
-                        <img src="assets/img/front-pages/backgrounds/cta-bg.png" alt="Entre em contato" class="w-100 mb-5" />
+                        <img src="../../assets/img/front-pages/backgrounds/cta-bg.png" alt="Entre em contato" class="w-100 mb-5" />
                         <p class="mb-0 description">
-                            Precisa de algo personalizado, mais informações ou tem um pedido especial? 
+                            Precisa de algo personalizado, mais informações ou tem um pedido especial?
                             Você está no lugar certo! Deixe-me ajudá-lo a encontrar a melhor solução.
                         </p>
                     </div>

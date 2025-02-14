@@ -136,7 +136,7 @@
   <?php include 'pages/home/estatisticas.php' ?>
   <?php include 'pages/home/faq.php' ?>
   <?php include 'pages/home/cta.php' ?>
-  <?php include 'pages/home/contact.php' ?>
+  <?php include 'pages/contacto/contact.php' ?>
   
   </div>
 <?php include 'pages/layout/footer.php' ?>
