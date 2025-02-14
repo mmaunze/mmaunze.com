@@ -20,7 +20,7 @@
 
     <?php include 'components/cover.php' ?>
     <?php include 'components/destaque.php' ?>
-    <?php include 'components/lista.php' ?>
+    
     <?php include 'components/extra.php' ?>
     <?php include 'components/cta.php' ?>
 
