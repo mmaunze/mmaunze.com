@@ -28,22 +28,16 @@
 <link rel="stylesheet" href="../../assets/vendor/libs/nouislider/nouislider.css" />
 <link rel="stylesheet" href="../../assets/vendor/libs/swiper/swiper.css" />
 
-
-
-
 <!-- Page CSS -->
 
 <link rel="stylesheet" href="../../assets/vendor/css/pages/front-page-landing.css" />
 
 <!-- Helpers -->
 <script src="../../assets/vendor/js/helpers.js"></script>
-<!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
-<!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
 <script src="../../assets/vendor/js/template-customizer.js"></script>
-<!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
 <script src="../../assets/js/front-config.js"></script>
 
 
 <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/animate-on-scroll/animate-on-scroll.css" />
+<link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
+<link rel="stylesheet" href="../../assets/vendor/libs/animate-on-scroll/animate-on-scroll.css" />
