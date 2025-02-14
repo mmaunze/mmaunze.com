@@ -28,27 +28,27 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="mb-6">Envie sua mensagem</h5>
-                        <form>
+                        <!-- Corrigido o action para apontar para o script PHP e alterado para o método POST -->
+                        <form action="send-email.php" method="POST">
                             <div class="row g-5">
                                 <div class="col-md-6">
                                     <div class="form-floating form-floating-outline">
-                                        <input type="text" class="form-control" id="basic-default-fullname" placeholder="Seu Nome" />
+                                        <input type="text" class="form-control" id="basic-default-fullname" name="name" placeholder="Seu Nome" required />
                                         <label for="basic-default-fullname">Nome Completo</label>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="form-floating form-floating-outline">
-                                        <input type="email" class="form-control" id="basic-default-email"
-                                            placeholder="seuemail@exemplo.com" />
+                                        <input type="email" class="form-control" id="basic-default-email" name="email" placeholder="seuemail@exemplo.com" required />
                                         <label for="basic-default-email">Email</label>
                                     </div>
                                 </div>
 
                                 <div class="col-12">
                                     <div class="form-floating form-floating-outline">
-                                        <textarea class="form-control h-px-250" placeholder="Escreva aqui sua mensagem" aria-label="Mensagem"
-                                            id="basic-default-message"></textarea>
+                                        <textarea class="form-control h-px-250" name="message" placeholder="Escreva aqui sua mensagem" aria-label="Mensagem"
+                                            id="basic-default-message" required></textarea>
                                         <label for="basic-default-message">Mensagem</label>
                                     </div>
                                 </div>
