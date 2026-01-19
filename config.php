@@ -10,8 +10,8 @@ define('SITE_DESCRIPTION', 'Desenvolvedor, Consultor e Especialista em Tecnologi
 
 // Contacto
 define('CONTACT_EMAIL', 'meldo@mmaunze.com');
-define('CONTACT_PHONE', '+258 84 3123456');
-define('CONTACT_LOCATION', 'Maputo, Moçambique');
+define('CONTACT_PHONE', '+258842135644');
+define('CONTACT_LOCATION', 'Ponta do Ouro, Maputo, Moçambique');
 
 // Email para Formulário
 define('FORM_RECIPIENT_EMAIL', 'meldo@mmaunze.com');

@@ -620,7 +620,7 @@ include '../includes/header.php';
   <div class="container">
     <h2>Tem um Projecto em Mente?</h2>
     <p class="section-subtitle">Estou sempre aberto a novos desafios e oportunidades de colaboração.</p>
-    <a href="/pages/contact.php" class="btn btn-primary">Vamos Conversar</a>
+    <a href="/pages/contact" class="btn btn-primary">Vamos Conversar</a>
   </div>
 </section>
 

@@ -18,13 +18,13 @@ include '../includes/header.php';
     <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: var(--spacing-2xl); align-items: start;">
       <div>
         <h2 style="margin-bottom: var(--spacing-lg);">Quem Sou Eu</h2>
-        <p style="font-size: 1.125rem; line-height: 1.8;">Sou Meldo Maúnze, um profissional apaixonado por tecnologia com mais de 17 anos de experiência em desenvolvimento de software, consultoria e infraestrutura de TI.</p>
+        <p style="font-size: 1.125rem; line-height: 1.8;">Sou Meldo Maúnze, um profissional apaixonado por tecnologia com mais de 5 anos de experiência em desenvolvimento de software, consultoria e infraestrutura de TI.</p>
         
         <p style="line-height: 1.8;">Ao longo da minha carreira, tive a oportunidade de trabalhar com empresas de diversos tamanhos, desde startups até grandes corporações, ajudando-as a transformar seus desafios tecnológicos em oportunidades de crescimento.</p>
         
         <p style="line-height: 1.8;">Minha abordagem é centrada no cliente, focando em entender suas necessidades específicas e entregar soluções que não apenas resolvem problemas, mas também agregam valor real ao negócio.</p>
 
-        <div style="margin-top: var(--spacing-xl); padding: var(--spacing-lg); background-color: var(--bg-white); border-left: 4px solid var(--primary);">
+        <div style="margin-top: var(--spacing-xl); padding: var(--spacing-lg); background-color: var(--bg-white); border: 4px solid var(--primary);">
           <p style="font-style: italic; color: var(--text-dark); margin: 0;">"A tecnologia é uma ferramenta poderosa, mas o verdadeiro valor está em como a utilizamos para resolver problemas reais e melhorar a vida das pessoas."</p>
         </div>
       </div>
@@ -36,7 +36,7 @@ include '../includes/header.php';
         <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: var(--spacing-xs);">Consultor de TI</p>
         <p style="color: rgba(255, 255, 255, 0.9);">Especialista em Tecnologia</p>
         <div style="margin-top: var(--spacing-lg); padding-top: var(--spacing-lg); border-top: 1px solid rgba(255, 255, 255, 0.3);">
-          <p style="color: rgba(255, 255, 255, 0.9); margin: 0;">📍 Maputo, Moçambique</p>
+          <p style="color: rgba(255, 255, 255, 0.9); margin: 0;">Ponta do Ouro, Maputo, Moçambique</p>
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@ include '../includes/header.php';
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--spacing-lg);">
       <div style="text-align: center; padding: var(--spacing-lg); border: 2px solid var(--bg-light);">
-        <h3 style="color: var(--primary); font-size: 3rem; margin-bottom: var(--spacing-sm);">17+</h3>
+        <h3 style="color: var(--primary); font-size: 3rem; margin-bottom: var(--spacing-sm);">5+</h3>
         <p style="font-weight: 600; color: var(--text-dark); margin: 0;">Anos de Experiência</p>
       </div>
       
@@ -81,7 +81,7 @@ include '../includes/header.php';
     <p class="section-subtitle">Domínio de várias tecnologias modernas e práticas de desenvolvimento.</p>
     
     <div class="grid grid-2" style="margin-top: var(--spacing-xl);">
-      <div class="card" style="border-left: 4px solid var(--primary);">
+      <div class="card" style="border: 4px solid var(--primary);">
         <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">Desenvolvimento Web</h4>
         <p style="margin-bottom: var(--spacing-md);">HTML5, CSS3, JavaScript, Vue.js, React, PHP, Node.js, Python, Django, Flask</p>
         <div>
@@ -91,7 +91,7 @@ include '../includes/header.php';
         </div>
       </div>
       
-      <div class="card" style="border-left: 4px solid var(--secondary);">
+      <div class="card" style="border: 4px solid var(--secondary);">
         <h4 style="color: var(--secondary); margin-bottom: var(--spacing-sm);">Desenvolvimento Mobile</h4>
         <p style="margin-bottom: var(--spacing-md);">React Native, Flutter, Swift, Kotlin, Desenvolvimento de aplicações nativas e híbridas</p>
         <div>
@@ -101,7 +101,7 @@ include '../includes/header.php';
         </div>
       </div>
       
-      <div class="card" style="border-left: 4px solid var(--primary);">
+      <div class="card" style="border: 4px solid var(--primary);">
         <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">Infraestrutura e DevOps</h4>
         <p style="margin-bottom: var(--spacing-md);">Docker, Kubernetes, AWS, Google Cloud, Azure, Linux, CI/CD, Terraform</p>
         <div>
@@ -111,7 +111,7 @@ include '../includes/header.php';
         </div>
       </div>
       
-      <div class="card" style="border-left: 4px solid var(--secondary);">
+      <div class="card" style="border: 4px solid var(--secondary);">
         <h4 style="color: var(--secondary); margin-bottom: var(--spacing-sm);">Inteligência Artificial</h4>
         <p style="margin-bottom: var(--spacing-md);">Machine Learning, Deep Learning, NLP, Computer Vision, TensorFlow, PyTorch, Scikit-learn</p>
         <div>
@@ -121,7 +121,7 @@ include '../includes/header.php';
         </div>
       </div>
       
-      <div class="card" style="border-left: 4px solid var(--primary);">
+      <div class="card" style="border: 4px solid var(--primary);">
         <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">Bases de Dados</h4>
         <p style="margin-bottom: var(--spacing-md);">MySQL, PostgreSQL, MongoDB, Redis, Elasticsearch, Firebase, DynamoDB</p>
         <div>
@@ -131,7 +131,7 @@ include '../includes/header.php';
         </div>
       </div>
       
-      <div class="card" style="border-left: 4px solid var(--secondary);">
+      <div class="card" style="border: 4px solid var(--secondary);">
         <h4 style="color: var(--secondary); margin-bottom: var(--spacing-sm);">Segurança e Redes</h4>
         <p style="margin-bottom: var(--spacing-md);">Cibersegurança, Firewall, VPN, SSL/TLS, OWASP, Penetration Testing, Network Administration</p>
         <div>
@@ -149,7 +149,7 @@ include '../includes/header.php';
   <div class="container">
     <h2 style="color: white; margin-bottom: var(--spacing-md);">Pronto para Trabalhar Junto?</h2>
     <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem; margin-bottom: var(--spacing-xl); max-width: 600px; margin-left: auto; margin-right: auto;">Entre em contacto comigo para discutir seu próximo projeto e descobrir como posso ajudar a transformar suas ideias em realidade.</p>
-    <a href="/pages/contact.php" class="btn" style="background-color: white; color: var(--primary); font-weight: 600; display: inline-block;">Contacte-me Agora</a>
+    <a href="/pages/contact" class="btn" style="background-color: white; color: var(--primary); font-weight: 600; display: inline-block;">Contacte-me Agora</a>
   </div>
 </section>
 

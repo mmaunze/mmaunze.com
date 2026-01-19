@@ -30,12 +30,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <div class="logo">Meldo Maúnze</div>
         
         <ul class="nav-links">
-          <li><a href="/index.php" <?php echo ($current_page === 'index.php' || $current_page === '') ? 'class="active"' : ''; ?>>Página Inicial</a></li>
-          <li><a href="/pages/about.php" <?php echo ($current_page === 'about.php') ? 'class="active"' : ''; ?>>Sobre Mim</a></li>
-          <li><a href="/pages/projects.php" <?php echo ($current_page === 'projects.php') ? 'class="active"' : ''; ?>>Projectos</a></li>
-          <li><a href="/pages/services.php" <?php echo ($current_page === 'services.php') ? 'class="active"' : ''; ?>>Serviços</a></li>
-          <li><a href="/pages/blog.php" <?php echo ($current_page === 'blog.php') ? 'class="active"' : ''; ?>>Blog/Ideias</a></li>
-          <li><a href="/pages/contact.php" <?php echo ($current_page === 'contact.php') ? 'class="active"' : ''; ?>>Contacto</a></li>
+          <li><a href="/" <?php echo ($current_page === 'index.php' || $current_page === '') ? 'class="active"' : ''; ?>>Página Inicial</a></li>
+          <li><a href="/pages/about" <?php echo ($current_page === 'about.php') ? 'class="active"' : ''; ?>>Sobre Mim</a></li>
+          <li><a href="/pages/projects" <?php echo ($current_page === 'projects.php') ? 'class="active"' : ''; ?>>Projectos</a></li>
+          <li><a href="/pages/services" <?php echo ($current_page === 'services.php') ? 'class="active"' : ''; ?>>Serviços</a></li>
+          <li><a href="/pages/blog" <?php echo ($current_page === 'blog.php') ? 'class="active"' : ''; ?>>Blog/Ideias</a></li>
+          <li><a href="/pages/contact" <?php echo ($current_page === 'contact.php') ? 'class="active"' : ''; ?>>Contacto</a></li>
         </ul>
         
         <button class="menu-toggle">☰</button>

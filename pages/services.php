@@ -3,14 +3,6 @@ $page_title = 'Serviços';
 include '../includes/header.php';
 ?>
 
-<!-- Hero Section -->
-<section class="hero" style="padding: var(--spacing-xl) 0;">
-  <div class="container">
-    <h1>Meus Serviços</h1>
-    <p>Soluções tecnológicas completas para o seu negócio</p>
-  </div>
-</section>
-
 <!-- Serviços Principais -->
 <section style="background-color: white;">
   <div class="container">
@@ -149,7 +141,7 @@ include '../includes/header.php';
           <li>✓ Suporte por email</li>
           <li>✓ 1 mês de manutenção</li>
         </ul>
-        <a href="/pages/contact.php" class="btn btn-secondary" style="width: 100%; text-align: center;">Solicitar Orçamento</a>
+        <a href="/pages/contact" class="btn btn-secondary" style="width: 100%; text-align: center;">Solicitar Orçamento</a>
       </div>
       
       <div class="card" style="border: 2px solid #5591F5; transform: scale(1.05);">
@@ -163,7 +155,7 @@ include '../includes/header.php';
           <li>✓ 3 meses de manutenção</li>
           <li>✓ Reuniões semanais</li>
         </ul>
-        <a href="/pages/contact.php" class="btn btn-primary" style="width: 100%; text-align: center;">Solicitar Orçamento</a>
+        <a href="/pages/contact" class="btn btn-primary" style="width: 100%; text-align: center;">Solicitar Orçamento</a>
       </div>
       
       <div class="card" style="border: 2px solid #E5E7EB;">
@@ -176,7 +168,7 @@ include '../includes/header.php';
           <li>✓ Manutenção contínua</li>
           <li>✓ Consultoria estratégica</li>
         </ul>
-        <a href="/pages/contact.php" class="btn btn-secondary" style="width: 100%; text-align: center;">Contacte-me</a>
+        <a href="/pages/contact" class="btn btn-secondary" style="width: 100%; text-align: center;">Contacte-me</a>
       </div>
     </div>
   </div>
@@ -222,7 +214,7 @@ include '../includes/header.php';
   <div class="container">
     <h2 style="color: white;">Pronto para Transformar Sua Ideia?</h2>
     <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem; margin-bottom: var(--spacing-lg);">Entre em contacto comigo para discutir seu projeto.</p>
-    <a href="/pages/contact.php" class="btn" style="background-color: white; color: #5591F5; font-weight: 600;">Contacte-me Agora</a>
+    <a href="/pages/contact" class="btn" style="background-color: white; color: #5591F5; font-weight: 600;">Contacte-me Agora</a>
   </div>
 </section>
 

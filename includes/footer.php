@@ -10,12 +10,12 @@
         <div>
           <h3>Navegação</h3>
           <ul style="list-style: none;">
-            <li><a href="/index.php">Página Inicial</a></li>
-            <li><a href="/pages/about.php">Sobre Mim</a></li>
-            <li><a href="/pages/projects.php">Projectos</a></li>
-            <li><a href="/pages/services.php">Serviços</a></li>
-            <li><a href="/pages/blog.php">Blog/Ideias</a></li>
-            <li><a href="/pages/contact.php">Contacto</a></li>
+            <li><a href="/">Página Inicial</a></li>
+            <li><a href="/pages/about">Sobre Mim</a></li>
+            <li><a href="/pages/projects">Projectos</a></li>
+            <li><a href="/pages/services">Serviços</a></li>
+            <li><a href="/pages/blog">Blog/Ideias</a></li>
+            <li><a href="/pages/contact">Contacto</a></li>
           </ul>
         </div>
         
