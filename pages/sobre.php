@@ -105,7 +105,7 @@ get_part('header');
                                 <span class="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-xs">Redes & Segurança</span>
                                 <span class="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-xs">Engenharia de Software</span>
                                 <span class="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-xs">IA</span>
-                                <span class="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-xs">Gestão de Projetos</span>
+                                <span class="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded text-xs">Gestão de Projectos</span>
                             </div>
                         </div>
                     </div>

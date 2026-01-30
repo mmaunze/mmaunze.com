@@ -12,7 +12,7 @@ $page_title = $page_title ?? 'Meldo Leonardo Maúnze | Engenheiro Informático';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= htmlspecialchars($page_title) ?></title>
-    <meta name="description" content="Portfólio de Meldo Leonardo Maúnze - Engenheiro de Software & ICT. Explore meus projetos, habilidades e experiência na área de tecnologia.">
+    <meta name="description" content="Portfólio de Meldo Leonardo Maúnze - Engenheiro de Software & ICT. Explore meus projectos, habilidades e experiência na área de tecnologia.">
     <meta name="author" content="Meldo Leonardo Maúnze">    
     
     <!-- Tailwind CSS -->

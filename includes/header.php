@@ -17,7 +17,7 @@ require_once __DIR__ . '/../config/url-config.php';
         <nav class="hidden md:flex items-center gap-8 text-sm font-semibold">
             <a href="<?= url('/') ?>" class="hover:text-brand-blue">Home</a>
                  
-            <!-- Dropdown Projetos -->
+            <!-- Dropdown Projectos -->
             <div class="relative group">
                 <button class="flex items-center gap-1 hover:text-brand-blue">
                     Sobre <i data-lucide="chevron-down" class="w-4 h-4"></i>
@@ -32,16 +32,16 @@ require_once __DIR__ . '/../config/url-config.php';
             </div>
 
 
-            <!-- Dropdown Projetos -->
+            <!-- Dropdown Projectos -->
             <div class="relative group">
                 <button class="flex items-center gap-1 hover:text-brand-blue">
-                    Projetos <i data-lucide="chevron-down" class="w-4 h-4"></i>
+                    Projectos <i data-lucide="chevron-down" class="w-4 h-4"></i>
                 </button>
                 <div class="absolute top-full left-0 w-56 pt-4 opacity-0 group-hover:opacity-100 transition-opacity">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-100 dark:border-gray-700 p-2">
-                        <a href="<?= url('pages/projetos') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Todos os Projetos</a>
-                        <a href="<?= url('pages/projetos.php?cat=software') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Software</a>
-                        <a href="<?= url('pages/projetos.php?cat=ict') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">ICT & Redes</a>
+                        <a href="<?= url('pages/projectos') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Todos os Projectos</a>
+                        <a href="<?= url('pages/projectos/software') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Software</a>
+                        <a href="<?= url('pages/projectos/ict') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">ICT & Redes</a>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@ require_once __DIR__ . '/../config/url-config.php';
             <a href="<?= url('') ?>">Home</a>
             <a href="<?= url('pages/sobre') ?>">Sobre</a>
             <a href="<?= url('pages/experiencia') ?>">Experiência</a>
-            <a href="<?= url('pages/projetos') ?>">Projetos</a>
+            <a href="<?= url('pages/projectos') ?>">Projectos</a>
             <a href="<?= url('pages/publicacoes') ?>">Publicações</a>
             <a href="<?= url('pages/habilidades') ?>">Habilidades</a>
             <a href="<?= url('pages/contacto') ?>">Contato</a>

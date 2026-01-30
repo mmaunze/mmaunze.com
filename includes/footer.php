@@ -36,7 +36,7 @@
                     <li><a href="<?= url('') ?>" class="hover:text-brand-blue">Home</a></li>
                     <li><a href="<?= url('pages/sobre') ?>" class="hover:text-brand-blue">Sobre Mim</a></li>
                     <li><a href="<?= url('pages/experiencia') ?>" class="hover:text-brand-blue">Experiência</a></li>
-                    <li><a href="<?= url('pages/projetos') ?>" class="hover:text-brand-blue">Projetos</a></li>
+                    <li><a href="<?= url('pages/projectos') ?>" class="hover:text-brand-blue">Projectos</a></li>
                 </ul>
             </div>
 

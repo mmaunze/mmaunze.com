@@ -10,7 +10,7 @@ get_part('header');
     <div class="max-w-7xl mx-auto px-6">
         <div class="mb-16">
             <h1 class="text-4xl font-bold mb-4">Vamos <span class="text-brand-blue">Conversar?</span></h1>
-            <p class="text-gray-600 dark:text-gray-400">Estou disponível para novos projetos, consultorias ou apenas para trocar ideias sobre tecnologia.</p>
+            <p class="text-gray-600 dark:text-gray-400">Estou disponível para novos projectos, consultorias ou apenas para trocar ideias sobre tecnologia.</p>
         </div>
 
         <div class="grid lg:grid-cols-3 gap-12">

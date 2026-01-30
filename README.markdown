@@ -21,7 +21,7 @@ mmaunze.com/
 ├── index.php               # Homepage (hero + destaques)
 ├── pages/
 │   ├── about.php           # Sobre mim / bio
-│   ├── projects.php        # Portfólio / projetos
+│   ├── projects.php        # Portfólio / projectos
 │   ├── services.php        # Serviços oferecidos
 │   ├── blog.php            # Artigos / ideias (estático ou futuro dinâmico)
 │   └── contact.php         # Formulário de contacto

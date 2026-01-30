@@ -21,8 +21,8 @@ get_part('header');
                             Agilidade de um departamento com a tranquilidade de um profissional. Especialista em transformar ideias em sistemas robustos e infraestruturas escaláveis.
                         </p>
                         <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                            <a href="<?= url('pages/projetos') ?>" class="bg-white text-brand-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-lg">
-                                Ver Projetos <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                            <a href="<?= url('pages/projectos') ?>" class="bg-white text-brand-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-lg">
+                                Ver Projectos <i data-lucide="arrow-right" class="w-5 h-5"></i>
                             </a>
                             <a href="<?= url('pages/contacto') ?>" class="border-2 border-white/30 hover:bg-white/10 px-8 py-4 rounded-lg font-bold text-lg transition-all text-center backdrop-blur-sm">
                                 Entrar em Contato
@@ -51,7 +51,7 @@ get_part('header');
                     </div>
                     <div class="text-center">
                         <div class="text-4xl font-extrabold text-brand-dark mb-2">50+</div>
-                        <div class="text-sm text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wider">Projetos Concluídos</div>
+                        <div class="text-sm text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wider">Projectos Concluídos</div>
                     </div>
                     <div class="text-center">
                         <div class="text-4xl font-extrabold text-brand-blue mb-2">4321+</div>

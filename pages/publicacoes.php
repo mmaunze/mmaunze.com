@@ -5,7 +5,7 @@ get_part('header');
 
 $posts = [
     [
-        'title' => 'Introdução à IA em Projetos de Software',
+        'title' => 'Introdução à IA em Projectos de Software',
         'date' => '20 Jan 2026',
         'category' => 'Inteligência Artificial',
         'excerpt' => 'Como integrar modelos de linguagem de grande escala (LLMs) em aplicações do mundo real para melhorar a experiência do utilizador.',
