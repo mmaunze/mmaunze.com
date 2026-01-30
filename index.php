@@ -25,7 +25,7 @@ get_part('header');
                                 Ver Projectos <i data-lucide="arrow-right" class="w-5 h-5"></i>
                             </a>
                             <a href="<?= url('pages/contacto') ?>" class="border-2 border-white/30 hover:bg-white/10 px-8 py-4 rounded-lg font-bold text-lg transition-all text-center backdrop-blur-sm">
-                                Entrar em Contato
+                                Entrar em Contacto
                             </a>
                         </div>
                     </div>

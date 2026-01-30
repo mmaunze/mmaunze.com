@@ -17,7 +17,7 @@ get_part('header');
             <!-- Contact Info -->
             <div class="lg:col-span-1 space-y-8">
                 <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-sm">
-                    <h3 class="text-xl font-bold mb-6">Informações de Contato</h3>
+                    <h3 class="text-xl font-bold mb-6">Informações de Contacto</h3>
                     <div class="space-y-6">
                         <div class="flex items-start gap-4">
                             <div class="w-10 h-10 bg-brand-blue/10 rounded-lg flex items-center justify-center shrink-0 text-brand-blue">

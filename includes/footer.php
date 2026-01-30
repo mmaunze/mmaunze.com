@@ -42,7 +42,7 @@
 
             <!-- Contact Info -->
             <div>
-                <h4 class="font-bold mb-6">Contato</h4>
+                <h4 class="font-bold mb-6">Contacto</h4>
                 <ul class="space-y-4 text-gray-600 dark:text-gray-400">
                     <li class="flex items-start gap-3">
                         <i data-lucide="map-pin" class="w-5 h-5 text-brand-blue shrink-0"></i>

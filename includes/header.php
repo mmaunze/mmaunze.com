@@ -47,7 +47,7 @@ require_once __DIR__ . '/../config/url-config.php';
             </div>
 
             <a href="<?= url('pages/publicacoes') ?>" class="hover:text-brand-blue">Publicações</a>
-            <a href="<?= url('pages/contacto') ?>" class="hover:text-brand-blue">Contato</a>
+            <a href="<?= url('pages/contacto') ?>" class="hover:text-brand-blue">Contacto</a>
 
             <button id="dark-toggle" class="p-2 rounded-full bg-gray-100 dark:bg-gray-800">
                 <i data-lucide="moon" class="w-4 h-4"></i>
@@ -80,7 +80,7 @@ require_once __DIR__ . '/../config/url-config.php';
             <a href="<?= url('pages/projectos') ?>">Projectos</a>
             <a href="<?= url('pages/publicacoes') ?>">Publicações</a>
             <a href="<?= url('pages/habilidades') ?>">Habilidades</a>
-            <a href="<?= url('pages/contacto') ?>">Contato</a>
+            <a href="<?= url('pages/contacto') ?>">Contacto</a>
             
             <div class="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
                 <button id="dark-toggle-mobile" class="flex items-center gap-2 w-full p-2 rounded-lg bg-gray-100 dark:bg-gray-800">
