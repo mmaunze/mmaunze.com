@@ -1,0 +1,97 @@
+<?php
+require_once __DIR__ . '/../config/bootstrap.php';
+get_part('head');
+get_part('header');
+?>
+<main class="pt-32 pb-20">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="mb-16">
+            <h1 class="text-4xl font-bold mb-4">Vamos <span class="text-brand-blue">Conversar?</span></h1>
+            <p class="text-gray-600 dark:text-gray-400">Estou disponível para novos projetos, consultorias ou apenas para trocar ideias sobre tecnologia.</p>
+        </div>
+
+        <div class="grid lg:grid-cols-3 gap-12">
+            <!-- Contact Info -->
+            <div class="lg:col-span-1 space-y-8">
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-sm">
+                    <h3 class="text-xl font-bold mb-6">Informações de Contato</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-brand-blue/10 rounded-lg flex items-center justify-center shrink-0 text-brand-blue">
+                                <i data-lucide="mail" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-400 uppercase font-bold mb-1">Email</p>
+                                <a href="mailto:meldo@mmaunze.com" class="font-medium hover:text-brand-blue transition-colors">meldo@mmaunze.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-brand-blue/10 rounded-lg flex items-center justify-center shrink-0 text-brand-blue">
+                                <i data-lucide="phone" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-400 uppercase font-bold mb-1">Telefone</p>
+                                <p class="font-medium">+258 842135644</p>
+                                <p class="font-medium">+258 872135644</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-brand-blue/10 rounded-lg flex items-center justify-center shrink-0 text-brand-blue">
+                                <i data-lucide="map-pin" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-400 uppercase font-bold mb-1">Localização</p>
+                                <p class="font-medium">Ponta do Ouro, Maputo, Moçambique</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-10 pt-10 border-t border-gray-100 dark:border-gray-700">
+                        <h4 class="font-bold mb-4">Redes Sociais</h4>
+                        <div class="flex gap-4">
+                            <a href="https://linkedin.com/in/mmaunze" target="_blank" class="w-10 h-10 rounded-full bg-gray-50 dark:bg-gray-900 flex items-center justify-center hover:text-brand-blue transition-colors">
+                                <i data-lucide="linkedin" class="w-5 h-5"></i>
+                            </a>
+                            <a href="https://github.com/mmaunze" target="_blank" class="w-10 h-10 rounded-full bg-gray-50 dark:bg-gray-900 flex items-center justify-center hover:text-brand-blue transition-colors">
+                                <i data-lucide="github" class="w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="lg:col-span-2">
+                <div class="bg-white dark:bg-gray-800 p-8 md:p-12 rounded-2xl border border-gray-100 dark:border-gray-700 shadow-sm">
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Seu Nome</label>
+                                <input type="text" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:outline-none focus:border-brand-blue transition-colors" placeholder="Ex: João Silva">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Seu Email</label>
+                                <input type="email" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:outline-none focus:border-brand-blue transition-colors" placeholder="Ex: joao@email.com">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Assunto</label>
+                            <select class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:outline-none focus:border-brand-blue transition-colors">
+                                <option>Desenvolvimento de Software</option>
+                                <option>Consultoria ICT / Redes</option>
+                                <option>Suporte Técnico</option>
+                                <option>Outros</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Mensagem</label>
+                            <textarea rows="6" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 focus:outline-none focus:border-brand-blue transition-colors" placeholder="Como posso ajudar?"></textarea>
+                        </div>
+                        <button type="button" class="w-full md:w-auto bg-brand-blue text-white px-12 py-4 rounded-xl font-bold hover:bg-blue-700 transition-colors shadow-lg shadow-blue-500/20">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<?php get_part('footer'); ?>

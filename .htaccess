@@ -1,0 +1,64 @@
+# =========================================
+# CONFIGURAÇÃO BASE
+# =========================================
+
+Options -Indexes
+RewriteEngine On
+
+# Forçar UTF-8
+AddDefaultCharset UTF-8
+
+
+# =========================================
+# SEGURANÇA
+# =========================================
+
+# Bloquear acesso a pastas sensíveis
+RewriteRule ^(config|includes|uploads|vendor)/ - [F,L]
+
+# Bloquear ficheiros ocultos (.env, .git, etc)
+RewriteRule (^|/)\. - [F,L]
+
+# Bloquear ficheiros de configuração
+<FilesMatch "(^\.|composer\.json|composer\.lock|package\.json|package-lock\.json)">
+    Require all denied
+</FilesMatch>
+
+
+# =========================================
+# REMOVER .php DAS URLS
+# =========================================
+
+# /pagina → /pagina.php
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+
+# =========================================
+# INDEX.PHP AUTOMÁTICO
+# =========================================
+
+# /pages/sobre → /pages/sobre/index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}/index.php -f
+RewriteRule ^(.+)$ $1/index.php [L]
+
+
+# =========================================
+# REMOVER BARRA FINAL (SEO)
+# =========================================
+
+# /sobre/ → /sobre
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} .+/$
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+
+# =========================================
+# EVITAR DUPLICAÇÃO DE CONTEÚDO
+# =========================================
+
+# /pagina.php → /pagina
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?]
+RewriteRule ^ %1 [R=301,L]
