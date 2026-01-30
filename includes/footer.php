@@ -34,9 +34,9 @@
                 <h4 class="font-bold mb-6">Navegação</h4>
                 <ul class="space-y-4 text-gray-600 dark:text-gray-400">
                     <li><a href="<?= url('') ?>" class="hover:text-brand-blue">Home</a></li>
-                    <li><a href="<?= url('pages/sobre.php') ?>" class="hover:text-brand-blue">Sobre Mim</a></li>
-                    <li><a href="<?= url('pages/experiencia.php') ?>" class="hover:text-brand-blue">Experiência</a></li>
-                    <li><a href="<?= url('pages/projetos.php') ?>" class="hover:text-brand-blue">Projetos</a></li>
+                    <li><a href="<?= url('pages/sobre') ?>" class="hover:text-brand-blue">Sobre Mim</a></li>
+                    <li><a href="<?= url('pages/experiencia') ?>" class="hover:text-brand-blue">Experiência</a></li>
+                    <li><a href="<?= url('pages/projetos') ?>" class="hover:text-brand-blue">Projetos</a></li>
                 </ul>
             </div>
 

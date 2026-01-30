@@ -1,6 +1,9 @@
 <?php
 // includes/head.php
 require_once __DIR__ . '/../config/url-config.php';
+
+// Define um título padrão caso nenhuma página tenha definido $page_title
+$page_title = $page_title ?? 'Meldo Leonardo Maúnze | Engenheiro Informático';
 ?>
 
 <!DOCTYPE html>
@@ -8,8 +11,10 @@ require_once __DIR__ . '/../config/url-config.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meldo Leonardo Maúnze | Engenheiro de Software & ICT</title>
-
+    <title><?= htmlspecialchars($page_title) ?></title>
+    <meta name="description" content="Portfólio de Meldo Leonardo Maúnze - Engenheiro de Software & ICT. Explore meus projetos, habilidades e experiência na área de tecnologia.">
+    <meta name="author" content="Meldo Leonardo Maúnze">    
+    
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>

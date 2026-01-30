@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/config/bootstrap.php';
+$page_title = "Meldo Leonardo Maúnze | Engenheiro de Software & ICT";
 
 get_part('head');
 get_part('header');
@@ -20,10 +21,10 @@ get_part('header');
                             Agilidade de um departamento com a tranquilidade de um profissional. Especialista em transformar ideias em sistemas robustos e infraestruturas escaláveis.
                         </p>
                         <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                            <a href="<?= url('pages/projetos.php') ?>" class="bg-white text-brand-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-lg">
+                            <a href="<?= url('pages/projetos') ?>" class="bg-white text-brand-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all flex items-center justify-center gap-2 shadow-lg">
                                 Ver Projetos <i data-lucide="arrow-right" class="w-5 h-5"></i>
                             </a>
-                            <a href="<?= url('pages/contacto.php') ?>" class="border-2 border-white/30 hover:bg-white/10 px-8 py-4 rounded-lg font-bold text-lg transition-all text-center backdrop-blur-sm">
+                            <a href="<?= url('pages/contacto') ?>" class="border-2 border-white/30 hover:bg-white/10 px-8 py-4 rounded-lg font-bold text-lg transition-all text-center backdrop-blur-sm">
                                 Entrar em Contato
                             </a>
                         </div>
@@ -45,7 +46,7 @@ get_part('header');
             <div class="max-w-7xl mx-auto px-6">
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
                     <div class="text-center">
-                        <div class="text-4xl font-extrabold text-brand-blue mb-2">5+</div>
+                        <div class="text-4xl font-extrabold text-brand-blue mb-2"><?php echo date('Y') - 2020; ?>+</div>
                         <div class="text-sm text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wider">Anos de Experiência</div>
                     </div>
                     <div class="text-center">
@@ -99,7 +100,7 @@ get_part('header');
                                 <span class="font-medium">Database Admin</span>
                             </div>
                         </div>
-                        <a href="<?= url('pages/sobre.php') ?>" class="text-brand-blue font-bold flex items-center gap-2 hover:gap-4 transition-all">
+                        <a href="<?= url('pages/sobre') ?>" class="text-brand-blue font-bold flex items-center gap-2 hover:gap-4 transition-all">
                             Saiba mais sobre minha trajetória <i data-lucide="arrow-right" class="w-5 h-5"></i>
                         </a>
                     </div>
@@ -137,7 +138,7 @@ get_part('header');
                     Seja para desenvolvimento de software, consultoria em TI ou gestão de infraestrutura, estou aqui para ajudar.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="<?= url('pages/contacto.php') ?>" class="bg-white text-brand-blue px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all">
+                    <a href="<?= url('pages/contacto') ?>" class="bg-white text-brand-blue px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all">
                         Solicitar Consultoria
                     </a>
                     <a href="https://linkedin.com/in/mmaunze" target="_blank" class="bg-brand-blue border-2 border-white/30 px-10 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-all">

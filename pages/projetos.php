@@ -1,5 +1,8 @@
 <?php
 require_once __DIR__ . '/../config/bootstrap.php';
+
+$page_title = "Projetos | Meldo Leonardo Maúnze - Engenheiro Informático";
+
 get_part('head');
 get_part('header');
 

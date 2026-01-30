@@ -15,7 +15,7 @@ require_once __DIR__ . '/../config/url-config.php';
 
         <!-- Desktop Menu -->
         <nav class="hidden md:flex items-center gap-8 text-sm font-semibold">
-            <a href="<?= url('') ?>" class="hover:text-brand-blue">Home</a>
+            <a href="<?= url('/') ?>" class="hover:text-brand-blue">Home</a>
                  
             <!-- Dropdown Projetos -->
             <div class="relative group">
@@ -24,9 +24,9 @@ require_once __DIR__ . '/../config/url-config.php';
                 </button>
                 <div class="absolute top-full left-0 w-56 pt-4 opacity-0 group-hover:opacity-100 transition-opacity">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-100 dark:border-gray-700 p-2">
-                        <a href="<?= url('pages/sobre.php') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Quem sou</a>
-                        <a href="<?= url('pages/habilidades.php') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Habilidades</a>
-                        <a href="<?= url('pages/experiencia.php') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Experiência</a>
+                        <a href="<?= url('pages/sobre') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Quem sou</a>
+                        <a href="<?= url('pages/habilidades') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Habilidades</a>
+                        <a href="<?= url('pages/experiencia') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Experiência</a>
                     </div>
                 </div>
             </div>
@@ -39,15 +39,15 @@ require_once __DIR__ . '/../config/url-config.php';
                 </button>
                 <div class="absolute top-full left-0 w-56 pt-4 opacity-0 group-hover:opacity-100 transition-opacity">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-100 dark:border-gray-700 p-2">
-                        <a href="<?= url('pages/projetos.php') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Todos os Projetos</a>
+                        <a href="<?= url('pages/projetos') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Todos os Projetos</a>
                         <a href="<?= url('pages/projetos.php?cat=software') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">Software</a>
                         <a href="<?= url('pages/projetos.php?cat=ict') ?>" class="block px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md">ICT & Redes</a>
                     </div>
                 </div>
             </div>
 
-            <a href="<?= url('pages/publicacoes.php') ?>" class="hover:text-brand-blue">Publicações</a>
-            <a href="<?= url('pages/contacto.php') ?>" class="hover:text-brand-blue">Contato</a>
+            <a href="<?= url('pages/publicacoes') ?>" class="hover:text-brand-blue">Publicações</a>
+            <a href="<?= url('pages/contacto') ?>" class="hover:text-brand-blue">Contato</a>
 
             <button id="dark-toggle" class="p-2 rounded-full bg-gray-100 dark:bg-gray-800">
                 <i data-lucide="moon" class="w-4 h-4"></i>
@@ -75,12 +75,12 @@ require_once __DIR__ . '/../config/url-config.php';
 
         <nav class="flex flex-col gap-4 text-lg bg-white dark:bg-gray-900 font-semibold">
             <a href="<?= url('') ?>">Home</a>
-            <a href="<?= url('pages/sobre.php') ?>">Sobre</a>
-            <a href="<?= url('pages/experiencia.php') ?>">Experiência</a>
-            <a href="<?= url('pages/projetos.php') ?>">Projetos</a>
-            <a href="<?= url('pages/publicacoes.php') ?>">Publicações</a>
-            <a href="<?= url('pages/habilidades.php') ?>">Habilidades</a>
-            <a href="<?= url('pages/contacto.php') ?>">Contato</a>
+            <a href="<?= url('pages/sobre') ?>">Sobre</a>
+            <a href="<?= url('pages/experiencia') ?>">Experiência</a>
+            <a href="<?= url('pages/projetos') ?>">Projetos</a>
+            <a href="<?= url('pages/publicacoes') ?>">Publicações</a>
+            <a href="<?= url('pages/habilidades') ?>">Habilidades</a>
+            <a href="<?= url('pages/contacto') ?>">Contato</a>
             
             <div class="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
                 <button id="dark-toggle-mobile" class="flex items-center gap-2 w-full p-2 rounded-lg bg-gray-100 dark:bg-gray-800">

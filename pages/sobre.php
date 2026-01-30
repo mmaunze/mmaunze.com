@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ . '/../config/bootstrap.php';
 
+$page_title = "Sobre Mim | Meldo Leonardo Maúnze - Engenheiro Informático";
+
 get_part('head');
 get_part('header');
 ?>
@@ -76,7 +78,7 @@ get_part('header');
                     </h2>
                     <div class="prose dark:prose-invert max-w-none text-gray-600 dark:text-gray-400 leading-relaxed space-y-4">
                         <p>
-                            Sou um Engenheiro de Software apaixonado por resolver problemas complexos através da tecnologia. Com mais de 5 anos de experiência prática, desenvolvi uma base sólida em desenvolvimento full-stack, com foco especial em ecossistemas Java (Spring Boot) e infraestruturas de rede empresariais.
+                            Sou um Engenheiro Informático apaixonado por resolver problemas complexos através da tecnologia. Com mais de <?php echo date('Y') - 2020; ?> anos de experiência prática, desenvolvi uma base sólida em desenvolvimento full-stack, com foco especial em ecossistemas Java (Spring Boot) e infraestruturas de rede empresariais.
                         </p>
                         <p>
                             Minha trajetória é marcada pela versatilidade: atuei desde o desenvolvimento de APIs REST escaláveis e sistemas de gestão acadêmica até a administração de servidores Windows e infraestruturas críticas de rede em ambientes hospitalares e hoteleiros.

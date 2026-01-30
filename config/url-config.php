@@ -2,7 +2,7 @@
 // config/config.php
 
 // URL base do projecto
-define('BASE_URL', 'http://localhost:5500'); // muda para o teu domínio real
+define('BASE_URL', 'https://mmaunze.com'); // muda para o teu domínio real
 
 /**
  * Retorna URL absoluta para o ficheiro/página fornecida
