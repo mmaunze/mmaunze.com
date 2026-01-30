@@ -1,5 +1,6 @@
 <?php
 require_once '../../config/bootstrap.php';
+require_once '../../config/url-config.php';
 
 $page_title = "Projectos | Meldo Leonardo Maúnze - Engenheiro Informático";
 
@@ -15,9 +16,9 @@ get_part('header');
             </div>
             
             <div class="flex bg-gray-100 dark:bg-gray-800 p-1 rounded-lg">
-                <a href="pages/projectos" class="px-6 py-2 rounded-md text-sm font-bold transition-all bg-white dark:bg-gray-700 shadow-sm text-brand-blue">Todos</a>
-                <a href="pages/projectos/software" class="px-6 py-2 rounded-md text-sm font-bold transition-all text-gray-500 hover:text-gray-700">Software</a>
-                <a href="pages/projectos/ict" class="px-6 py-2 rounded-md text-sm font-bold transition-all text-gray-500 hover:text-gray-700">ICT & Redes</a>
+                <a href="<?= url('pages/projectos') ?>" class="px-6 py-2 rounded-md text-sm font-bold transition-all bg-white dark:bg-gray-700 shadow-sm text-brand-blue">Todos</a>
+                <a href="<?= url('pages/projectos/software') ?>" class="px-6 py-2 rounded-md text-sm font-bold transition-all text-gray-500 hover:text-gray-700">Software</a>
+                <a href="<?= url('pages/projectos/ict') ?>" class="px-6 py-2 rounded-md text-sm font-bold transition-all text-gray-500 hover:text-gray-700">ICT & Redes</a>
             </div>
         </div>
 
