@@ -1,6 +1,6 @@
 <?php
-require_once '../../config/bootstrap.php';
-require_once '../../config/url-config.php';
+require_once '../config/bootstrap.php';
+require_once '../config/url-config.php';
 
 $page_title = "Projectos | Meldo Leonardo Maúnze - Engenheiro Informático";
 
