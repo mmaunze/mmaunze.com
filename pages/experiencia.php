@@ -1,4 +1,4 @@
-<?php
+<?php 
 require_once __DIR__ . '/../config/bootstrap.php';
 
 $page_title = "Experiência | Meldo Leonardo Maúnze - Engenheiro Informático";
@@ -6,75 +6,657 @@ $page_title = "Experiência | Meldo Leonardo Maúnze - Engenheiro Informático";
 get_part('head');
 get_part('header');
 ?>
+
 <main class="pt-32 pb-20">
     <div class="max-w-7xl mx-auto px-6">
+        <!-- Header Section -->
         <div class="mb-16">
-            <h1 class="text-4xl font-bold mb-4">Experiência <span class="text-brand-blue">Profissional</span></h1>
-            <p class="text-gray-600 dark:text-gray-400">Uma trajetória focada em excelência técnica e inovação.</p>
-        </div>
-        <div class="space-y-12 relative">
-            <!-- Experiências -->
-            <div class="grid gap-8">
-                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm card-hover">
-                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
-                        <div>
-                            <h3 class="text-xl font-bold">Fullstack Developer</h3>
-                            <p class="text-brand-blue font-medium">FECN/Unilúrio, Pemba</p>
-                        </div>
-                        <span class="px-4 py-1 bg-brand-blue/10 text-brand-blue rounded-full text-sm font-bold self-start md:self-center">Abr 2024 – Ago 2025</span>
-                    </div>
-                    <ul class="text-gray-600 dark:text-gray-400 space-y-2 list-disc pl-5 text-sm">
-                        <li>Desenvolvimento do ESIRA V2 (Gestão Académica para 500+ usuários).</li>
-                        <li>Criação de REST API com 800+ endpoints usando Java e Spring Boot.</li>
-                        <li>Otimização de base de dados PostgreSQL e implementação de segurança com JWT/OAuth2.</li>
-                        <li>Configuração de pipelines CI/CD com Docker e Jenkins.</li>
-                    </ul>
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                <div>
+                    <h1 class="text-5xl font-bold mb-4">
+                        Experiência <span class="text-brand-blue">Profissional</span>
+                    </h1>
+                    <p class="text-lg text-gray-600 dark:text-gray-400">
+                        Uma trajetória focada em excelência técnica e inovação.
+                    </p>
                 </div>
-
-                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm card-hover">
-                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
-                        <div>
-                            <h3 class="text-xl font-bold">System Administrator / IT Manager</h3>
-                            <p class="text-brand-blue font-medium">Provida Medical Center, Pemba</p>
-                        </div>
-                        <span class="px-4 py-1 bg-brand-blue/10 text-brand-blue rounded-full text-sm font-bold self-start md:self-center">Jun 2025 – Nov 2025</span>
-                    </div>
-                    <ul class="text-gray-600 dark:text-gray-400 space-y-2 list-disc pl-5 text-sm">
-                        <li>Gestão de Windows Server, Active Directory e Group Policy.</li>
-                        <li>Suporte a sistemas críticos (Primavera e Amtronix) e gestão de backups (Dell EMC).</li>
-                        <li>Manutenção de infraestrutura de rede, CCTV e controle de acesso biométrico.</li>
-                    </ul>
-                </div>
-
-                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm card-hover">
-                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
-                        <div>
-                            <h3 class="text-xl font-bold">Backend Developer</h3>
-                            <p class="text-brand-blue font-medium">Conversu, Nacala</p>
-                        </div>
-                        <span class="px-4 py-1 bg-brand-blue/10 text-brand-blue rounded-full text-sm font-bold self-start md:self-center">Maio 2023 – Abr 2024</span>
-                    </div>
-                    <ul class="text-gray-600 dark:text-gray-400 space-y-2 list-disc pl-5 text-sm">
-                        <li>Desenvolvimento de Sistema de Gestão de Colaboradores (Java Swing, MVC).</li>
-                        <li>Migração de sistemas legados para arquitetura web com APIs REST.</li>
-                    </ul>
-                </div>
-
-                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm card-hover">
-                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
-                        <div>
-                            <h3 class="text-xl font-bold">Freelance ICT & Software Consultant</h3>
-                            <p class="text-brand-blue font-medium">Diversos Clientes (ShopRite, Kulima, etc.)</p>
-                        </div>
-                        <span class="px-4 py-1 bg-brand-blue/10 text-brand-blue rounded-full text-sm font-bold self-start md:self-center">2022 – Presente</span>
-                    </div>
-                    <ul class="text-gray-600 dark:text-gray-400 space-y-2 list-disc pl-5 text-sm">
-                        <li>Consultoria em redes, CCTV e suporte técnico especializado.</li>
-                        <li>Desenvolvimento de sistemas: Xicola (Vue.js), ESIB (Java EE), PreFaculdade (Android/IA).</li>
-                    </ul>
+                
+                <!-- CV Download Section -->
+                <div class="flex flex-col gap-3">
+                    <button onclick="downloadCV('generico')" 
+                            class="px-6 py-3 bg-brand-blue text-white rounded-lg font-medium hover:bg-brand-blue/90 transition-all shadow-md hover:shadow-lg flex items-center gap-2 justify-center">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        CV Genérico
+                    </button>
+                    <button onclick="downloadCV('ict')" 
+                            class="px-6 py-3 bg-gray-700 text-white rounded-lg font-medium hover:bg-gray-600 transition-all shadow-md hover:shadow-lg flex items-center gap-2 justify-center">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+                        </svg>
+                        CV ICT
+                    </button>
+                    <button onclick="downloadCV('dev')" 
+                            class="px-6 py-3 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 transition-all shadow-md hover:shadow-lg flex items-center gap-2 justify-center">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                        </svg>
+                        CV Developer
+                    </button>
                 </div>
             </div>
         </div>
+
+        <!-- Timeline -->
+        <div class="space-y-8 relative">
+            <!-- Vertical line -->
+            <div class="hidden md:block absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-brand-blue via-purple-500 to-transparent ml-4"></div>
+
+            <!-- MEFEMA Systems - Solutions Architect & Technical Lead -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-brand-blue rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Solutions Architect & Technical Lead</h3>
+                            <p class="text-brand-blue font-semibold text-lg">MEFEMA Systems</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Maputo Province, Mozambique · Híbrido</p>
+                        </div>
+                        <span class="px-5 py-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Ago 2025 - Presente · 5 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Lidero a definição da arquitectura técnica e stack tecnológico da empresa, seleccionando e implementando soluções modernas (React/Next.js, Node.js/Python, cloud AWS/Azure/GCP, integrações M-Pesa e APIs financeiras).</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Desenvolvo e arquitecto aplicações web e mobile personalizadas, sistemas ERP simplificados e plataformas de e-commerce para PMEs moçambicanas.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Gerencio o ciclo completo de projectos de transformação digital: análise de requisitos, desenho de soluções, desenvolvimento, integração de sistemas legados, QA, deploy e manutenção em cloud.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Oriento estratégias de transformação digital para clientes, realizando auditorias de sistemas, planeamento TI e optimização de processos através de tecnologia.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Supervisiono uma equipa técnica multidisciplinar (>15 profissionais), garantindo qualidade, prazos e alinhamento com objectivos de negócio.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Responsável pela inovação contínua: adopção de novas tecnologias, modernização de software e formação interna/externa em ferramentas de produtividade e cibersegurança.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Centro Médico Pro Vida - Técnico de Informática -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-purple-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Técnico de Informática</h3>
+                            <p class="text-brand-blue font-semibold text-lg">Centro Médico Pro Vida</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Pemba, Cabo Delgado, Moçambique · Híbrido</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Jul 2025 - Nov 2025 · 5 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Diagnóstico e manutenção de redes de computadores, assegurando conectividade contínua.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Configuração e partilha de impressoras em rede, optimizando processos operacionais.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Prestação de suporte técnico remoto e presencial, resolvendo problemas de hardware e software.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Configuração e manutenção de sistemas operativos Windows, garantindo actualizações regulares.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Verificação cruzada de dados em Excel para relatórios, assegurando consistência e precisão.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CONVERSU - ICT Manager -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-indigo-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">ICT Manager</h3>
+                            <p class="text-brand-blue font-semibold text-lg">CONVERSU - Construções Verdes e Sustentáveis</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Nacala, Nampula, Moçambique · Híbrido</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Abr 2024 - Mai 2025 · 1 ano 2 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-indigo-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Gestão completa da infraestrutura TI, incluindo servidores Windows, Office 365 e VPN.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-indigo-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Desenvolvimento e manutenção de bases de dados corporativas.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-indigo-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Implementação de soluções de cabeamento estruturado e configuração de redes.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-indigo-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Suporte técnico especializado e gestão de equipamentos.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CONVERSU - Web Developer -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-blue-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Web Developer</h3>
+                            <p class="text-brand-blue font-semibold text-lg">CONVERSU - Construções Verdes e Sustentáveis</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Nacala, Nampula, Moçambique · Remoto</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Abr 2024 - Jun 2024 · 3 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Projectei e desenvolvi o website corporativo completo utilizando PHP, HTML, CSS, JavaScript, jQuery e AJAX.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Projectei e implementei a base de dados utilizando MySQL.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Desenvolvi dashboard para gerenciamento do blog do site.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Configurei domínio e hospedagem na Hostinger.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- LifeStyle - Analista Software e Programador -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-cyan-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Analista Software e Programador</h3>
+                            <p class="text-brand-blue font-semibold text-lg">LifeStyle · Estágio</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Pemba, Cabo Delgado, Moçambique · Presencial</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Set 2024 - Out 2024 · 2 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Análise de processos empresariais e identificação de melhorias tecnológicas.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Criação de diagramas UML e fluxos de trabalho para sistemas empresariais.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Desenho de arquitectura técnica de sistemas, incluindo organização de bases de dados.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Estimativa de custos e planeamento de projectos com metodologias RUP e Ágeis.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Network & Computers - Técnico de Informática -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-teal-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Técnico de Informática e Helpdesk</h3>
+                            <p class="text-brand-blue font-semibold text-lg">Network & Computers · Freelance</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Pemba, Cabo Delgado, Moçambique · Híbrido</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Abr 2023 - Set 2024 · 1 ano 6 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Montagem e configuração de computadores, impressoras e dispositivos de rede.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Diagnóstico e resolução de falhas técnicas em dispositivos de rede.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Configuração de redes locais LAN/WAN e WLAN, garantindo conectividade e segurança.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Manutenção preventiva e correctiva de equipamentos.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Projecto Pessoal - Sistema de Gestão de Solicitações -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-emerald-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Software Developer - Sistema de Gestão de Solicitações</h3>
+                            <p class="text-brand-blue font-semibold text-lg">Projecto Pessoal</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Remoto</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Dez 2023 - Mar 2024 · 4 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Análise completa de requisitos e engenharia de software usando metodologia SCRUM.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Desenvolvimento com Java EE (backend), MySQL (base de dados) e JSP com HTML, CSS, JavaScript, jQuery e AJAX (frontend).</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Testes unitários e de integração usando JUnit.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Deploy completo em ambiente de produção.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- @BComputers - Information Technology Officer -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-lime-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Information Technology Officer</h3>
+                            <p class="text-brand-blue font-semibold text-lg">@BComputers · Freelance</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Nampula, Moçambique · Remoto</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Mai 2023 - Jan 2024 · 9 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-lime-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Instalação, configuração e manutenção de sistemas operativos.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-lime-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Configuração de computadores em rede LAN/WAN.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-lime-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Suporte técnico especializado aos utilizadores.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-lime-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Diagnóstico e resolução de problemas gerais.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Kirimizi Hotel - ICT Intern -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-yellow-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">ICT Intern</h3>
+                            <p class="text-brand-blue font-semibold text-lg">Kirimizi Hotel & Restaurante · Estágio</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Pemba, Cabo Delgado, Moçambique · Presencial</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Nov 2022 - Mai 2023 · 7 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Montagem e configuração de sistemas CCTV.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Instalação, configuração e manutenção de sistemas operativos e impressoras.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Planeamento e reparação de cabeamento estruturado.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Monitorização de desempenho de rede e análise de falhas.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Universidade Lúrio - Software Engineer -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-orange-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Software Engineer - Sistema de Gestão de Biblioteca</h3>
+                            <p class="text-brand-blue font-semibold text-lg">Universidade Lúrio · Aprendizagem</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Pemba, Cabo Delgado, Moçambique · Presencial</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Jun 2021 - Set 2022 · 1 ano 4 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Análise de requisitos, estudo do negócio e estimativa de custos.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Engenharia de software completa utilizando metodologia RUP.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Desenho e implementação do esquema de base de dados com PostgreSQL.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Desenvolvimento do frontend com Vue.js e backend com Java Spring Boot.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Formação Voluntária -->
+        <div class="mt-20 mb-16">
+            <h2 class="text-3xl font-bold mb-8">Formação <span class="text-brand-blue">Voluntária</span></h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- African Girls Can Code Initiative -->
+                <div class="bg-gradient-to-br from-pink-50 to-purple-50 dark:from-gray-800 dark:to-gray-800 p-6 rounded-xl border border-pink-100 dark:border-gray-700 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Formador Voluntário</h3>
+                    <p class="text-brand-blue font-semibold">African Girls Can Code Initiative</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Mai 2025 · 1 mês</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Formação em HTML5, Design de Sistemas e Desenvolvimento Web para jovens raparigas.</p>
+                </div>
+
+                <!-- Code Like a Girl -->
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-gray-800 dark:to-gray-800 p-6 rounded-xl border border-blue-100 dark:border-gray-700 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Formador Voluntário</h3>
+                    <p class="text-brand-blue font-semibold">Code Like a Girl</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Ago 2024 · 1 mês</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Ensino de HTML e fundamentos de programação.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Outras Experiências Breves -->
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold mb-8">Outras <span class="text-brand-blue">Experiências</span></h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- SERNIC -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-md hover:shadow-lg transition-all">
+                    <h3 class="text-lg font-bold mb-2">Técnico de TI</h3>
+                    <p class="text-brand-blue font-semibold text-sm">SERNIC</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">Ago 2024 · 1 mês</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Instalação e configuração de SO, redes, impressoras, segurança e helpdesk.</p>
+                </div>
+
+                <!-- SPAR VIP -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-md hover:shadow-lg transition-all">
+                    <h3 class="text-lg font-bold mb-2">Técnico de ICT</h3>
+                    <p class="text-brand-blue font-semibold text-sm">SPAR VIP Moçambique</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">Jun 2024 · 1 mês</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Diagnóstico de rede e configuração de impressoras e dispositivos.</p>
+                </div>
+
+                <!-- Adicional Moçambique -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-md hover:shadow-lg transition-all">
+                    <h3 class="text-lg font-bold mb-2">IT Consultant</h3>
+                    <p class="text-brand-blue font-semibold text-sm">Adicional Moçambique</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">Jun 2024 · 1 mês</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Consultoria técnica e suporte em TI.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </main>
+
+<script>
+/**
+ * Script para calcular automaticamente a duração da experiência profissional.
+ * Regra: Início no dia 1 do primeiro mês, fim no dia 28 do último mês.
+ */
+function updateExperienceDurations() {
+    const monthMap = {
+        'Jan': 0, 'Fev': 1, 'Mar': 2, 'Abr': 3, 'Mai': 4, 'Jun': 5,
+        'Jul': 6, 'Ago': 7, 'Set': 8, 'Out': 9, 'Nov': 10, 'Dez': 11
+    };
+
+    const experienceElements = document.querySelectorAll('span.whitespace-nowrap');
+    
+    experienceElements.forEach(el => {
+        const text = el.textContent.trim();
+        // Regex para capturar: "Set 2025 - Presente" ou "Abr 2024 - Mai 2025"
+        const match = text.match(/([A-Z][a-z]{2}\s\d{4})\s-\s(Presente|[A-Z][a-z]{2}\s\d{4})/);
+        
+        if (match) {
+            const startStr = match[1];
+            const endStr = match[2];
+            
+            const startParts = startStr.split(' ');
+            const startDate = new Date(parseInt(startParts[1]), monthMap[startParts[0]], 1);
+            
+            let endDate;
+            if (endStr === 'Presente') {
+                endDate = new Date();
+            } else {
+                const endParts = endStr.split(' ');
+                endDate = new Date(parseInt(endParts[1]), monthMap[endParts[0]], 28);
+            }
+            
+            let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
+            months += endDate.getMonth() - startDate.getMonth();
+            
+            // Ajuste para considerar o dia 28 como mês completo
+            if (endDate.getDate() >= 27) {
+                months += 1;
+            }
+            
+            if (months < 1) months = 1;
+
+            const years = Math.floor(months / 12);
+            const remainingMonths = months % 12;
+            
+            let durationText = '';
+            if (years > 0) {
+                durationText += years + (years === 1 ? ' ano' : ' anos');
+            }
+            if (remainingMonths > 0) {
+                if (durationText !== '') durationText += ' ';
+                durationText += remainingMonths + (remainingMonths === 1 ? ' mês' : ' meses');
+            }
+            
+            if (durationText === '') durationText = '1 mês';
+            
+            el.innerHTML = `${startStr} - ${endStr} · ${durationText}`;
+        }
+    });
+}
+
+// Executar ao carregar a página
+document.addEventListener('DOMContentLoaded', updateExperienceDurations);
+
+function downloadCV(type) {
+    // Placeholder - você precisará implementar a lógica real de download
+    const cvFiles = {
+        'generico': '/documents/cv/CV_Meldo_Maunze.pdf',
+        'ict': '/documents/cv/CV_Meldo_Maunze_ICT.pdf',
+        'dev': '/documents/cv/CV_Meldo_Maunze_Developer.pdf'
+    };
+    
+    const cvNames = {
+        'generico': 'CV Genérico - Meldo Maúnze',
+        'ict': 'CV ICT - Meldo Maúnze',
+        'dev': 'CV Developer - Meldo Maúnze'
+    };
+    
+    // Criar um link temporário para download
+    const link = document.createElement('a');
+    link.href = cvFiles[type];
+    link.download = cvNames[type] + '.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Feedback visual
+    const button = event.target.closest('button');
+    const originalText = button.innerHTML;
+    button.innerHTML = '<svg class="w-5 h-5 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg> A transferir...';
+    
+    setTimeout(() => {
+        button.innerHTML = '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Transferido!';
+        setTimeout(() => {
+            button.innerHTML = originalText;
+        }, 2000);
+    }, 1000);
+}
+</script>
+
 <?php get_part('footer'); ?>
