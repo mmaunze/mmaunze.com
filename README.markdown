@@ -2,7 +2,7 @@
 Um website pessoal **moderno, leve e performático** desenvolvido com **HTML5**, **CSS3**, **PHP** e **JavaScript vanilla** (sem frameworks pesados).
 
 [![Website mmaunze.com](https://img.shields.io/badge/Live%20Site-mmaunze.com-blue)](https://mmaunze.com)
-[![License: MIT](https://img.shields.io/badge/MIT-success)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/lICENSE%MIT-success)](LICENSE)
 
 ## 🎯 Principais Características (2026 Edition)
 - ✅ **Totalmente Responsivo** — Mobile-first com breakpoints otimizados
