@@ -108,6 +108,67 @@ get_part('header');
                 </div>
             </div>
 
+            <!-- FECN/Unilúrio - Fullstack Developer -->
+<div class="relative pl-0 md:pl-12">
+    <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-brand-blue rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+    <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+        <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+            <div class="flex-1">
+                <h3 class="text-2xl font-bold mb-2">Desenvolvedor Fullstack</h3>
+                <p class="text-brand-blue font-semibold text-lg">FECN, Unilúrio, Pemba</p>
+                <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Sistema Interno de Gestão Académica e Pedagógica (ESIRA V2)</p>
+            </div>
+            <span class="px-5 py-2 bg-brand-blue/10 text-brand-blue rounded-full text-sm font-bold whitespace-nowrap self-start">
+                Abr 2024 - Ago 2025
+            </span>
+        </div>
+        <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+            <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Desenvolvi e mantive um sistema integrado de gestão, atendendo a mais de 500 utentes, com foco em processos académicos e administrativos.</span>
+            </li>
+            <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Projectei e implementei uma REST API robusta com <strong>Java</strong> e <strong>Spring Boot</strong>, expondo mais de 800 endpoints documentados com <strong>OpenAPI (Swagger)</strong>.</span>
+            </li>
+            <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Utilizei <strong>PostgreSQL</strong> como base de dados principal, realizando optimizações de esquema e consultas para garantir alta escalabilidade e desempenho.</span>
+            </li>
+            <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Implementei um sistema de segurança robusto utilizando <strong>Spring Security</strong> com autenticação JWT e OAuth2, e controle de acesso baseado em papéis (RBAC) com 12 diferentes níveis de acesso.</span>
+            </li>
+            <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Configurei um pipeline de CI/CD utilizando <strong>Docker</strong> para containerização e automação de builds e deployments.</span>
+            </li>
+            <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Garanti a integração fluida com o <em>front end</em> desenvolvido em <strong>Next.js</strong>, demonstrando versatilidade em ambiente full-stack.</span>
+            </li>
+            <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>O sistema está disponível em <a href="https://esira.unilurio.ac.mz" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline font-medium">esira.unilurio.ac.mz</a></span>
+            </li>
+        </ul>
+    </div>
+</div>
+
             <!-- Centro Médico Pro Vida - Técnico de Informática -->
             <div class="relative pl-0 md:pl-12">
                 <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-purple-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
