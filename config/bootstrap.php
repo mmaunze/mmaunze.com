@@ -28,8 +28,8 @@ $dotenv->required([
 // Define caminhos do projecto
 define('CONFIG_PATH', ROOT_PATH . '/config');
 define('INCLUDES_PATH', ROOT_PATH . '/includes');
-define('ASSETS_PATH', ROOT_PATH . '/public_html/assets');
-define('UPLOADS_PATH', ROOT_PATH . '/public_html/uploads');
+define('ASSETS_PATH', ROOT_PATH . '/assets');
+define('UPLOADS_PATH', ROOT_PATH . '/uploads');
 
 // Define constantes de ambiente
 define('APP_ENV', $_ENV['APP_ENV'] ?? 'production');
