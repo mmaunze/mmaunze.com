@@ -14,7 +14,7 @@
                     <span class="font-bold text-lg">Meldo <span class="text-brand-blue">Maúnze</span></span>
                 </div>
                 <p class="text-gray-600 dark:text-gray-400 mb-6 max-w-md">
-                    Engenheiro de Software e Especialista em ICT com mais de 5 anos de experiência transformando desafios complexos em soluções digitais eficientes.
+                    Engenheiro de Software e Especialista em ICT com mais de <?php echo (date('Y') - 2020); ?> anos de experiência transformando desafios complexos em soluções digitais eficientes.
                 </p>
                 <div class="flex gap-4">
                     <a href="https://linkedin.com/in/mmaunze" target="_blank" class="w-10 h-10 rounded-full bg-white dark:bg-gray-800 flex items-center justify-center shadow-sm hover:text-brand-blue transition-colors">
