@@ -1,5 +1,3 @@
-documents
-
 # Environment variables
 .env
 .env.local
@@ -21,9 +19,12 @@ composer.lock
 Thumbs.db
 
 # Uploads
-/public_html/uploads/*
-!/public_html/uploads/.gitkeep
+/uploads/*
+!/uploads/.gitkeep
 
 # Logs
 *.log
 /logs/
+
+# Cache
+/cache/

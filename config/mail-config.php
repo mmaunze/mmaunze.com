@@ -22,7 +22,7 @@ class Mailer
             self::$config = [
                 'host' => env('SMTP_HOST', 'smtp.hostinger.com'),
                 'port' => env('SMTP_PORT', 465),
-                'secure' => env('SMTP_SECURE', 'ssl'), // ssl ou tls
+                'secure' => env('SMTP_SECURE', 'ssl'),
                 'user' => env('SMTP_USER'),
                 'pass' => env('SMTP_PASS'),
                 'from_email' => env('SMTP_FROM_EMAIL'),
@@ -32,7 +32,7 @@ class Mailer
     }
 
     /**
-     * Construtor - inicializa PHPMailer com config do .env
+     * Construtor - inicializa PHPMailer
      */
     public function __construct()
     {
@@ -41,7 +41,7 @@ class Mailer
         $this->mail = new PHPMailer(true);
 
         try {
-            // Configuração do servidor SMTP
+            // Configuração SMTP
             $this->mail->isSMTP();
             $this->mail->Host = self::$config['host'];
             $this->mail->SMTPAuth = true;
@@ -51,7 +51,7 @@ class Mailer
             $this->mail->Port = self::$config['port'];
             $this->mail->CharSet = 'UTF-8';
 
-            // Debug apenas em ambiente de desenvolvimento
+            // Debug apenas em desenvolvimento
             if (APP_DEBUG) {
                 $this->mail->SMTPDebug = SMTP::DEBUG_SERVER;
             }
@@ -97,7 +97,7 @@ class Mailer
     }
 
     /**
-     * Define corpo do email (HTML)
+     * Define corpo HTML
      */
     public function body(string $html, string $altText = ''): self
     {
@@ -153,7 +153,7 @@ class Mailer
     }
 
     /**
-     * Retorna última mensagem de erro
+     * Retorna erro
      */
     public function getError(): string
     {
@@ -161,33 +161,10 @@ class Mailer
     }
 
     /**
-     * Cria instância estática rápida
+     * Cria instância estática
      */
     public static function create(): self
     {
         return new self();
     }
 }
-
-// Exemplos de uso:
-// 
-// 1. Forma fluente:
-// Mailer::create()
-//     ->to('destinatario@example.com', 'Nome Destinatário')
-//     ->subject('Assunto do Email')
-//     ->body('<h1>Olá!</h1><p>Mensagem em HTML</p>')
-//     ->send();
-//
-// 2. Forma completa:
-// $mailer = new Mailer();
-// $mailer->to('cliente@example.com')
-//        ->replyTo('meldo@mmaunze.com')
-//        ->subject('Resposta ao seu contacto')
-//        ->body('<p>Obrigado pelo contacto...</p>')
-//        ->attach('/path/to/file.pdf');
-// 
-// if ($mailer->send()) {
-//     echo "Email enviado!";
-// } else {
-//     echo "Erro: " . $mailer->getError();
-// }

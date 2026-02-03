@@ -4,10 +4,10 @@
  * Define raiz, carrega ambiente e helpers comuns
  */
 
-// Caminho absoluto da raiz do projecto
-define('ROOT_PATH', realpath(__DIR__ . '/..'));
+// Caminho absoluto da raiz (public_html)
+define('ROOT_PATH', __DIR__ . '/..');
 
-// Autoload do Composer (inclui phpdotenv e phpmailer)
+// Autoload do Composer
 require_once ROOT_PATH . '/vendor/autoload.php';
 
 // Carrega variáveis de ambiente do .env
@@ -28,8 +28,8 @@ $dotenv->required([
 // Define caminhos do projecto
 define('CONFIG_PATH', ROOT_PATH . '/config');
 define('INCLUDES_PATH', ROOT_PATH . '/includes');
-define('ASSETS_PATH', ROOT_PATH . '/assets');
-define('UPLOADS_PATH', ROOT_PATH . '/uploads');
+define('API_PATH', ROOT_PATH . '/api');
+define('ASSETS_PATH', ROOT_PATH);
 
 // Define constantes de ambiente
 define('APP_ENV', $_ENV['APP_ENV'] ?? 'production');
@@ -72,7 +72,7 @@ function get_part(string $part): void
  */
 function asset(string $path): string
 {
-    return APP_URL . '/assets/' . ltrim($path, '/');
+    return APP_URL . '/' . ltrim($path, '/');
 }
 
 /**

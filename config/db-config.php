@@ -83,14 +83,10 @@ class Database
     }
 
     /**
-     * Fecha conexão (útil para testes)
+     * Fecha conexão
      */
     public static function closeConnection(): void
     {
         self::$instance = null;
     }
 }
-
-// Exemplo de uso:
-// $db = Database::getConnection();
-// $users = Database::query("SELECT * FROM users WHERE active = ?", [1])->fetchAll();
