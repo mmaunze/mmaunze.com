@@ -57,7 +57,7 @@ class Database
                     $options
                 );
             } catch (PDOException $e) {
-                if (APP_DEBUG) {
+                if (defined('APP_DEBUG') && APP_DEBUG) {
                     throw new RuntimeException(
                         'Erro de conexão à base de dados: ' . $e->getMessage()
                     );

@@ -1,8 +1,10 @@
 <?php
-// config/config.php
+/**
+ * Configuração de URLs
+ */
 
-// URL base do projecto
-define('BASE_URL', 'https://mmaunze.com'); // muda para o teu domínio real
+// URL base do projecto (preferencialmente do .env)
+define('BASE_URL', env('APP_URL', 'https://mmaunze.com'));
 
 /**
  * Retorna URL absoluta para o ficheiro/página fornecida
@@ -14,4 +16,3 @@ function url($path = '') {
     $path = trim($path, '/');
     return BASE_URL . '/' . $path;
 }
-?>

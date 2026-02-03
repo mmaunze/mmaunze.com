@@ -52,7 +52,7 @@ class Mailer
             $this->mail->CharSet = 'UTF-8';
 
             // Debug apenas em desenvolvimento
-            if (APP_DEBUG) {
+            if (defined('APP_DEBUG') && APP_DEBUG) {
                 $this->mail->SMTPDebug = SMTP::DEBUG_SERVER;
             }
 
@@ -63,7 +63,7 @@ class Mailer
             );
 
         } catch (Exception $e) {
-            if (APP_DEBUG) {
+            if (defined('APP_DEBUG') && APP_DEBUG) {
                 throw new RuntimeException(
                     'Erro ao configurar email: ' . $e->getMessage()
                 );
@@ -141,7 +141,7 @@ class Mailer
         try {
             return $this->mail->send();
         } catch (Exception $e) {
-            if (APP_DEBUG) {
+            if (defined('APP_DEBUG') && APP_DEBUG) {
                 throw new RuntimeException(
                     'Erro ao enviar email: ' . $this->mail->ErrorInfo
                 );
