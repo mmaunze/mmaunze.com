@@ -24,6 +24,10 @@ RewriteRule (^|/)\. - [F,L]
     Require all denied
 </FilesMatch>
 
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>
 
 # =========================================
 # REMOVER .php DAS URLS
@@ -62,3 +66,4 @@ RewriteRule ^(.+)/$ /$1 [R=301,L]
 # /pagina.php → /pagina
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?]
 RewriteRule ^ %1 [R=301,L]
+
