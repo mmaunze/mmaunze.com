@@ -1,1 +1,29 @@
 documents
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+/public_html/uploads/*
+!/public_html/uploads/.gitkeep
+
+# Logs
+*.log
+/logs/
