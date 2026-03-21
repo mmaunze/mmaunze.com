@@ -53,6 +53,31 @@ get_part('header');
             <!-- Vertical line -->
             <div class="hidden md:block absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-brand-blue via-purple-500 to-transparent ml-4"></div>
 
+            <!-- Dotcom - Backend Java Developer (NOVO) -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-brand-blue rounded-full border-4 border-white dark:border-gray-900 shadow-lg ring-4 ring-brand-blue/20"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-brand-blue/40 dark:border-brand-blue/40 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Backend Java Developer</h3>
+                            <p class="text-brand-blue font-semibold text-lg">Dotcom</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Moçambique</p>
+                        </div>
+                        <span class="px-5 py-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Mar 2026 - Presente
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Desenvolvimento de aplicações backend robustas com <strong>Java</strong> e <strong>Spring Boot</strong>, implementando APIs RESTful e lógica de negócio escalável.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
             <!-- MEFEMA Systems - Solutions Architect & Technical Lead -->
             <div class="relative pl-0 md:pl-12">
                 <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-brand-blue rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
@@ -61,10 +86,10 @@ get_part('header');
                         <div class="flex-1">
                             <h3 class="text-2xl font-bold mb-2">Solutions Architect & Technical Lead</h3>
                             <p class="text-brand-blue font-semibold text-lg">MEFEMA Systems</p>
-                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Maputo Province, Mozambique · Híbrido</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Maputo Province, Mozambique · Remoto</p>
                         </div>
                         <span class="px-5 py-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-full text-sm font-bold whitespace-nowrap self-start">
-                            Ago 2025 - Presente · 5 meses
+                            Set 2025 - Presente
                         </span>
                     </div>
                     <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
@@ -90,12 +115,6 @@ get_part('header');
                             <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Oriento estratégias de transformação digital para clientes, realizando auditorias de sistemas, planeamento TI e optimização de processos através de tecnologia.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                            </svg>
                             <span>Supervisiono uma equipa técnica multidisciplinar (>15 profissionais), garantindo qualidade, prazos e alinhamento com objectivos de negócio.</span>
                         </li>
                         <li class="flex items-start gap-3">
@@ -104,78 +123,15 @@ get_part('header');
                             </svg>
                             <span>Responsável pela inovação contínua: adopção de novas tecnologias, modernização de software e formação interna/externa em ferramentas de produtividade e cibersegurança.</span>
                         </li>
-                            <li class="flex items-start gap-3">
+                        <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-
-                    <span>Website: <a href="https://mefemasys.co.mz" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline font-medium">mefemasys.co.mz</a></span>
-
-                            </li>
+                            <span>Website: <a href="https://mefemasys.co.mz" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline font-medium">mefemasys.co.mz</a></span>
+                        </li>
                     </ul>
                 </div>
             </div>
-
-            <!-- FECN/Unilúrio - Fullstack Developer -->
-<div class="relative pl-0 md:pl-12">
-    <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-brand-blue rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
-    <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-        <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
-            <div class="flex-1">
-                <h3 class="text-2xl font-bold mb-2">Desenvolvedor Fullstack</h3>
-                <p class="text-brand-blue font-semibold text-lg">FECN, Unilúrio, Pemba</p>
-                <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Sistema Interno de Gestão Académica e Pedagógica (ESIRA V2)</p>
-            </div>
-            <span class="px-5 py-2 bg-brand-blue/10 text-brand-blue rounded-full text-sm font-bold whitespace-nowrap self-start">
-                Abr 2024 - Ago 2025
-            </span>
-        </div>
-        <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
-            <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                <span>Desenvolvi e mantive um sistema integrado de gestão, atendendo a mais de 500 utentes, com foco em processos académicos e administrativos.</span>
-            </li>
-            <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                <span>Projectei e implementei uma REST API robusta com <strong>Java</strong> e <strong>Spring Boot</strong>, expondo mais de 800 endpoints documentados com <strong>OpenAPI (Swagger)</strong>.</span>
-            </li>
-            <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                <span>Utilizei <strong>PostgreSQL</strong> como base de dados principal, realizando optimizações de esquema e consultas para garantir alta escalabilidade e desempenho.</span>
-            </li>
-            <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                <span>Implementei um sistema de segurança robusto utilizando <strong>Spring Security</strong> com autenticação JWT e OAuth2, e controle de acesso baseado em papéis (RBAC) com 12 diferentes níveis de acesso.</span>
-            </li>
-            <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                <span>Configurei um pipeline de CI/CD utilizando <strong>Docker</strong> para containerização e automação de builds e deployments.</span>
-            </li>
-            <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                <span>Garanti a integração fluida com o <em>front end</em> desenvolvido em <strong>Next.js</strong>, demonstrando versatilidade em ambiente full-stack.</span>
-            </li>
-            <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                <span>O sistema está disponível em <a href="https://esira.unilurio.ac.mz" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline font-medium">esira.unilurio.ac.mz</a></span>
-            </li>
-        </ul>
-    </div>
-</div>
 
             <!-- Centro Médico Pro Vida - Técnico de Informática -->
             <div class="relative pl-0 md:pl-12">
@@ -183,7 +139,7 @@ get_part('header');
                 <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
                         <div class="flex-1">
-                            <h3 class="text-2xl font-bold mb-2">Técnico de Informática</h3>
+                            <h3 class="text-2xl font-bold mb-2">IT Support Specialist</h3>
                             <p class="text-brand-blue font-semibold text-lg">Centro Médico Pro Vida</p>
                             <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Pemba, Cabo Delgado, Moçambique · Híbrido</p>
                         </div>
@@ -196,31 +152,123 @@ get_part('header');
                             <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Diagnóstico e manutenção de redes de computadores, assegurando conectividade contínua.</span>
+                            <span>Diagnóstico e manutenção de redes, assegurando conectividade contínua em toda a infra-estrutura organizacional.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Configuração e partilha de impressoras em rede, optimizando processos operacionais.</span>
+                            <span>Configuração e gestão de impressoras em rede para optimizar fluxos operacionais.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Prestação de suporte técnico remoto e presencial, resolvendo problemas de hardware e software.</span>
+                            <span>Suporte técnico remoto e presencial, resolvendo incidentes de hardware e software com eficiência para minimizar o tempo de inactividade.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Configuração e manutenção de sistemas operativos Windows, garantindo actualizações regulares.</span>
+                            <span>Manutenção e configuração de sistemas operativos Windows, garantindo actualizações regulares e integridade dos sistemas.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-purple-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Verificação cruzada de dados em Excel para relatórios, assegurando consistência e precisão.</span>
+                            <span>Verificação de dados em Excel para garantir consistência e precisão de relatórios, suportando funções de business intelligence.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- FECN/Unilúrio - Fullstack Developer -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-brand-blue rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Desenvolvedor Fullstack</h3>
+                            <p class="text-brand-blue font-semibold text-lg">FECN, Unilúrio, Pemba</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Sistema Interno de Gestão Académica e Pedagógica (ESIRA V2)</p>
+                        </div>
+                        <span class="px-5 py-2 bg-brand-blue/10 text-brand-blue rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Abr 2024 - Ago 2025 · 1 ano 5 meses
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Desenvolvi e mantive um sistema integrado de gestão, atendendo a mais de 500 utentes, com foco em processos académicos e administrativos.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Projectei e implementei uma REST API robusta com <strong>Java</strong> e <strong>Spring Boot</strong>, expondo mais de 800 endpoints documentados com <strong>OpenAPI (Swagger)</strong>.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Utilizei <strong>PostgreSQL</strong> como base de dados principal, realizando optimizações de esquema e consultas para garantir alta escalabilidade e desempenho.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Implementei um sistema de segurança robusto com <strong>Spring Security</strong>, autenticação JWT e OAuth2, e controlo de acesso baseado em papéis (RBAC) com 12 diferentes níveis de acesso.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Configurei um pipeline de CI/CD utilizando <strong>Docker</strong> para containerização e automação de builds e deployments.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Garanti integração fluida com o <em>front end</em> desenvolvido em <strong>Next.js</strong>, demonstrando versatilidade em ambiente full-stack.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>O sistema está disponível em <a href="https://esira.unilurio.ac.mz" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline font-medium">esira.unilurio.ac.mz</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- African Girls Can Code Initiative - Formador Voluntário -->
+            <div class="relative pl-0 md:pl-12">
+                <div class="hidden md:block absolute left-0 top-6 w-8 h-8 bg-pink-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Formador Voluntário</h3>
+                            <p class="text-brand-blue font-semibold text-lg">African Girls Can Code Initiative</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Cidade de Pemba, Cabo Delgado, Moçambique · Presencial</p>
+                        </div>
+                        <span class="px-5 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-bold whitespace-nowrap self-start">
+                            Mai 2025 · 1 mês
+                        </span>
+                    </div>
+                    <ul class="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-pink-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Formação prática em tecnologias de desenvolvimento web (HTML5) para jovens mulheres, fomentando um ambiente de aprendizagem inclusivo.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-pink-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Orientação técnica em design de sistemas e interfaces, contribuindo para reduzir o fosso digital em Cabo Delgado.</span>
                         </li>
                     </ul>
                 </div>
@@ -245,7 +293,7 @@ get_part('header');
                             <svg class="w-5 h-5 text-indigo-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Gestão completa da infraestrutura TI, incluindo servidores Windows, Office 365 e VPN.</span>
+                            <span>Gestão completa da infra-estrutura TI: servidores Windows, Office 365, VPN e administração de redes.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-indigo-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -257,13 +305,13 @@ get_part('header');
                             <svg class="w-5 h-5 text-indigo-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Implementação de soluções de cabeamento estruturado e configuração de redes.</span>
+                            <span>Implementação de cabeamento estruturado e configuração de infra-estruturas de rede.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-indigo-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Suporte técnico especializado e gestão de equipamentos.</span>
+                            <span>Suporte técnico especializado e gestão de equipamentos para garantir alinhamento com os objectivos organizacionais.</span>
                         </li>
                     </ul>
                 </div>
@@ -288,32 +336,32 @@ get_part('header');
                             <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Projectei e desenvolvi o website corporativo completo utilizando PHP, HTML, CSS, JavaScript, jQuery e AJAX.</span>
+                            <span>Projectei e desenvolvi o website corporativo completo (frontend + backend) utilizando PHP, MySQL, HTML5, CSS, JavaScript, jQuery e AJAX.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Projectei e implementei a base de dados utilizando MySQL.</span>
+                            <span>Desenhei e implementei a arquitectura da base de dados MySQL para suporte a conteúdos dinâmicos.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Desenvolvi dashboard para gerenciamento do blog do site.</span>
+                            <span>Criei dashboard administrativo personalizado que permite a pessoal não técnico gerir o blog de forma autónoma.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Configurei domínio e hospedagem na Hostinger.</span>
+                            <span>Geri todo o ciclo de deployment: configuração de domínio e alojamento na Hostinger.</span>
                         </li>
                         <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-brand-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-                <span>Website disponível em <a href="https://conversu.co.mz" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline font-medium">conversu.co.mz</a></span>
-            </li>
+                            <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Website disponível em <a href="https://conversu.co.mz" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline font-medium">conversu.co.mz</a></span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -337,25 +385,19 @@ get_part('header');
                             <svg class="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Análise de processos empresariais e identificação de melhorias tecnológicas.</span>
+                            <span>Análise de processos empresariais e identificação de oportunidades de melhoria tecnológica. Recolha de requisitos para definir especificações de sistemas.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Criação de diagramas UML e fluxos de trabalho para sistemas empresariais.</span>
+                            <span>Desenvolvimento de diagramas UML e fluxos de processos para mapear funcionalidades de sistemas.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Desenho de arquitectura técnica de sistemas, incluindo organização de bases de dados.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                            </svg>
-                            <span>Estimativa de custos e planeamento de projectos com metodologias RUP e Ágeis.</span>
+                            <span>Desenho de arquitectura técnica, estrutura de base de dados e estimativas de custo de projecto com metodologias RUP e Ágeis.</span>
                         </li>
                     </ul>
                 </div>
@@ -380,25 +422,25 @@ get_part('header');
                             <svg class="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Montagem e configuração de computadores, impressoras e dispositivos de rede.</span>
+                            <span>Montagem, configuração e manutenção de computadores, impressoras e dispositivos de rede para clientes em Pemba.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Diagnóstico e resolução de falhas técnicas em dispositivos de rede.</span>
+                            <span>Diagnóstico e resolução de falhas técnicas em equipamentos de rede, minimizando o tempo de inactividade dos clientes.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Configuração de redes locais LAN/WAN e WLAN, garantindo conectividade e segurança.</span>
+                            <span>Configuração de redes LAN, implementando medidas de segurança para proteger a integridade das redes dos clientes.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Manutenção preventiva e correctiva de equipamentos.</span>
+                            <span>Manutenção preventiva e correctiva de equipamentos, com documentação técnica de apoio ao utilizador.</span>
                         </li>
                     </ul>
                 </div>
@@ -410,7 +452,7 @@ get_part('header');
                 <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
                         <div class="flex-1">
-                            <h3 class="text-2xl font-bold mb-2">Software Developer - Sistema de Gestão de Solicitações</h3>
+                            <h3 class="text-2xl font-bold mb-2">Software Developer — Sistema de Gestão de Solicitações</h3>
                             <p class="text-brand-blue font-semibold text-lg">Projecto Pessoal</p>
                             <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Remoto</p>
                         </div>
@@ -423,25 +465,19 @@ get_part('header');
                             <svg class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Análise completa de requisitos e engenharia de software usando metodologia SCRUM.</span>
+                            <span>Análise completa de requisitos e ciclo de engenharia de software usando metodologia SCRUM.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Desenvolvimento com Java EE (backend), MySQL (base de dados) e JSP com HTML, CSS, JavaScript, jQuery e AJAX (frontend).</span>
+                            <span>Backend com <strong>Spring Boot</strong> e APIs RESTful; base de dados <strong>MySQL</strong>; frontend com <strong>Vue.js</strong>.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Testes unitários e de integração usando JUnit.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                            </svg>
-                            <span>Deploy completo em ambiente de produção.</span>
+                            <span>Testes unitários e de integração com JUnit; deploy completo em ambiente de produção.</span>
                         </li>
                     </ul>
                 </div>
@@ -466,25 +502,19 @@ get_part('header');
                             <svg class="w-5 h-5 text-lime-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Instalação, configuração e manutenção de sistemas operativos.</span>
+                            <span>Instalação, configuração e manutenção de sistemas operativos Windows e Linux, integração de computadores em infra-estruturas de rede existentes.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-lime-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Configuração de computadores em rede LAN/WAN.</span>
+                            <span>Gestão de contas de utilizador, permissões e controlos de acesso. Implementação de soluções de backup e recuperação de desastres.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-lime-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Suporte técnico especializado aos utilizadores.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <svg class="w-5 h-5 text-lime-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                            </svg>
-                            <span>Diagnóstico e resolução de problemas gerais.</span>
+                            <span>Suporte técnico a utilizadores, documentação técnica e formação em software e boas práticas de TI.</span>
                         </li>
                     </ul>
                 </div>
@@ -509,25 +539,25 @@ get_part('header');
                             <svg class="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Montagem e configuração de sistemas CCTV.</span>
+                            <span>Montagem e configuração de sistemas CCTV, incluindo posicionamento de câmeras e configuração de DVR/NVR com acesso remoto.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Instalação, configuração e manutenção de sistemas operativos e impressoras.</span>
+                            <span>Instalação e terminação de cabos CAT5e/CAT6, planeamento e reparação de infra-estrutura de cabeamento estruturado.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Planeamento e reparação de cabeamento estruturado.</span>
+                            <span>Monitorização de desempenho de rede, análise de tráfego e manutenção preventiva de equipamentos CCTV.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Monitorização de desempenho de rede e análise de falhas.</span>
+                            <span>Documentação de topologias de rede e suporte técnico a utilizadores finais.</span>
                         </li>
                     </ul>
                 </div>
@@ -539,7 +569,7 @@ get_part('header');
                 <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
                         <div class="flex-1">
-                            <h3 class="text-2xl font-bold mb-2">Software Engineer - Sistema de Gestão de Biblioteca</h3>
+                            <h3 class="text-2xl font-bold mb-2">Software Engineer — Sistema de Gestão de Biblioteca</h3>
                             <p class="text-brand-blue font-semibold text-lg">Universidade Lúrio · Aprendizagem</p>
                             <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Pemba, Cabo Delgado, Moçambique · Presencial</p>
                         </div>
@@ -552,25 +582,25 @@ get_part('header');
                             <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Análise de requisitos, estudo do negócio e estimativa de custos.</span>
+                            <span>Ciclo completo de engenharia de software com metodologia RUP: análise de requisitos, estudo do negócio, estimativa de custos e planeamento.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Engenharia de software completa utilizando metodologia RUP.</span>
+                            <span>Desenho e implementação do esquema de base de dados com <strong>PostgreSQL</strong>.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Desenho e implementação do esquema de base de dados com PostgreSQL.</span>
+                            <span>Frontend em <strong>Vue.js</strong> e backend em <strong>Java Spring Boot</strong> com APIs RESTful para comunicação entre componentes.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span>Desenvolvimento do frontend com Vue.js e backend com Java Spring Boot.</span>
+                            <span>Funcionalidades centrais: catalogação de livros, registo de utilizadores, fluxos de empréstimo/devolução e relatórios. Deploy e documentação completos.</span>
                         </li>
                     </ul>
                 </div>
@@ -587,15 +617,15 @@ get_part('header');
                     <h3 class="text-xl font-bold mb-2">Formador Voluntário</h3>
                     <p class="text-brand-blue font-semibold">African Girls Can Code Initiative</p>
                     <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Mai 2025 · 1 mês</p>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Formação em HTML5, Design de Sistemas e Desenvolvimento Web para jovens raparigas.</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Formação em HTML5, Design de Sistemas e Desenvolvimento Web para jovens mulheres em Cabo Delgado.</p>
                 </div>
 
                 <!-- Code Like a Girl -->
                 <div class="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-gray-800 dark:to-gray-800 p-6 rounded-xl border border-blue-100 dark:border-gray-700 shadow-md">
                     <h3 class="text-xl font-bold mb-2">Formador Voluntário</h3>
                     <p class="text-brand-blue font-semibold">Code Like a Girl</p>
-                    <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Ago 2024 · 1 mês</p>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Ensino de HTML e fundamentos de programação.</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Ago 2024 · 1 mês · Miézi, Cabo Delgado</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Ensino de HTML5, CSS, JavaScript e UX/UI Design para raparigas, contribuindo para reduzir o fosso de género em tecnologia.</p>
                 </div>
             </div>
         </div>
@@ -609,23 +639,23 @@ get_part('header');
                     <h3 class="text-lg font-bold mb-2">Técnico de TI</h3>
                     <p class="text-brand-blue font-semibold text-sm">SERNIC</p>
                     <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">Ago 2024 · 1 mês</p>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Instalação e configuração de SO, redes, impressoras, segurança e helpdesk.</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Instalação e configuração de SO, redes e impressoras; segurança (antivírus), gestão de utilizadores, backups e helpdesk.</p>
                 </div>
 
                 <!-- SPAR VIP -->
                 <div class="bg-white dark:bg-gray-800 p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-md hover:shadow-lg transition-all">
                     <h3 class="text-lg font-bold mb-2">Técnico de ICT</h3>
                     <p class="text-brand-blue font-semibold text-sm">SPAR VIP Moçambique</p>
-                    <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">Jun 2024 · 1 mês</p>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Diagnóstico de rede e configuração de impressoras e dispositivos.</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">Jun 2024 · 1 mês · Pemba</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Diagnóstico e manutenção de redes, configuração de routers/switches/APs, DHCP/DNS, VPN e cabeamento estruturado LAN.</p>
                 </div>
 
                 <!-- Adicional Moçambique -->
                 <div class="bg-white dark:bg-gray-800 p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-md hover:shadow-lg transition-all">
                     <h3 class="text-lg font-bold mb-2">IT Consultant</h3>
                     <p class="text-brand-blue font-semibold text-sm">Adicional Moçambique</p>
-                    <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">Jun 2024 · 1 mês</p>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Consultoria técnica e suporte em TI.</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">Jun 2024 · 1 mês · Pemba</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-3">Configuração de redes e routers; deployment e integração de sistemas biométricos para controlo de acesso e gestão de presença.</p>
                 </div>
             </div>
         </div>
@@ -699,7 +729,6 @@ function updateExperienceDurations() {
 document.addEventListener('DOMContentLoaded', updateExperienceDurations);
 
 function downloadCV(type) {
-    // Placeholder - você precisará implementar a lógica real de download
     const cvFiles = {
         'generico': '/documents/cv/CV_Meldo_Maunze.pdf',
         'ict': '/documents/cv/CV_Meldo_Maunze_ICT.pdf',
@@ -712,7 +741,6 @@ function downloadCV(type) {
         'dev': 'CV Developer - Meldo Maúnze'
     };
     
-    // Criar um link temporário para download
     const link = document.createElement('a');
     link.href = cvFiles[type];
     link.download = cvNames[type] + '.pdf';
@@ -720,7 +748,6 @@ function downloadCV(type) {
     link.click();
     document.body.removeChild(link);
     
-    // Feedback visual
     const button = event.target.closest('button');
     const originalText = button.innerHTML;
     button.innerHTML = '<svg class="w-5 h-5 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg> A transferir...';
