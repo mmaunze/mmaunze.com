@@ -59,7 +59,7 @@ get_part('header');
                 <div class="bg-white dark:bg-gray-800 p-8 rounded-xl border-2 border-brand-blue/40 dark:border-brand-blue/30 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden">
                     <!-- "Novo" badge -->
                     <div class="absolute top-4 right-4">
-                        <span class="px-3 py-1 bg-brand-blue text-white text-xs font-bold rounded-full uppercase tracking-wider shadow">Novo</span>
+                        <span class="px-3 py-1 bg-brand-blue text-white text-xs font-bold rounded-full uppercase tracking-wider shadow"></span>
                     </div>
                     <div class="flex flex-col lg:flex-row lg:items-start justify-between mb-6 gap-4">
                         <div class="flex-1">
